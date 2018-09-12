@@ -1,0 +1,1990 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+<header adminlang="en" creationtool="TransAid" datatype="txt" segtype="sentence" srclang="en"/>
+<body>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The Linux Foundation</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>The Linux Foundation</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Using Open Source Code</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース コードの使用</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>One of the most important responsibilities of an open source program office is ensuring that your organization meets its legal obligations when integrating open source code with proprietary and third-party source code in your commercial products.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース プログラム オフィスの最も重要な責務の 1 つは、オープン ソース コードを商品のプロプライエタリ ソース コードやサードパーティ ソース コードと統合する際に、組織が確実に法的義務を果たすようにすることです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>You need to establish guidelines on how developers can use open source code, and detailed processes to track where open source code is coming from, how it’s licensed, and where it ultimately ends up.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>開発者がオープン ソース コードをどのように使用できるかのガイドライン、およびオープン ソース コードの出所がどこで、どのようにライセンスされ、最終的にどう使用されるかを追跡する詳細なプロセスを確立する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This guide gets you started with a baseline compliance program for using, releasing, and distributing open source code.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このガイドでは、オープン ソース コードを使用、リリース、配布するためのベースライン コンプライアンス プログラムについて説明します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Contents</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>目次</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Why track and review code</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コードの追跡とレビューの必要性</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Compliance roles and responsibilities</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コンプライアンスにおける役割と責任</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>A simple policy for using open source code</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース コードのシンプルな利用ポリシー</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Five-stage code review process</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>5 段階のコード レビュー プロセス</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>What to do after v1.0</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>バージョン 1.0 後のプロセス</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Sample open source usage request form</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース利用申請フォーム サンプル</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Final words</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>終わりに</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Architecture diagram template</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>アーキテクチャ概略図テンプレート</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>View All Guides »</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>すべてのガイドを表示 »</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Contribute on GitHub »</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>GitHub に貢献する »</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Contributors to this Guide</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>本ガイドの貢献者</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Ibrahim Haddad</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>Ibrahim Haddad</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>VP of R&amp;D and Head of the Open Source Group</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>Samsung Research America 社</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Samsung Research America</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>R&amp;D 担当 VP 兼オープン ソース グループ長</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 1</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 1</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Why track and review code?</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コードの追跡とレビューの必要性</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Simply stated, if your company isn’t tracking how and where its developers use open source code, you’re at risk of non compliance with applicable open source licenses — this can be an expensive path to go through both in terms of legal fees and engineering time spent to correct the error.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>単純な話として、開発者がオープン ソース コードをどこでどのように使用しているかを把握してない企業は、適用されるオープン ソース ライセンスに違反する恐れがあります。これは、弁護士費用の点でも、エラーの修正に費やされるエンジニアリング時間の点でもコストがかかる結果になる可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Ignoring your open source legal obligations also has repercussions for your company’s reputation in the open source community.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>また、オープン ソースの法的義務を無視することは、オープン ソース コミュニティ内で企業の評判を損なうことにもなります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>An open source program office helps centralize policies and decision-making around open source consumption, distribution, and release, tracks code provenance and use, and ensures the organization doesn’t run afoul of its compliance obligations.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース プログラム オフィスは、オープン ソースの使用、配布、リリースに関わるポリシーおよび意思決定の一元化を支援し、コードの出所と使用を追跡して、組織がコンプライアンス義務に違反しないようにします。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Ideally, your open source program includes a complete compliance program, developed with the help of your legal counsel.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース プログラムが包括的なコンプライアンス プログラムを含み、法務専門家の協力を得て開発されていることが理想的です。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In this guide, we’ll cover one important aspect of your compliance program: your policy and processes for using, releasing, and distributing open source code.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このガイドでは、コンプライアンス プログラムの重要な側面、つまりオープン ソース コードを使用、リリース、配布するためのポリシーとプロセスについて説明します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>“A well-designed open source compliance process should simultaneously ensure compliance with the terms of open source licenses and also help companies protect their own intellectual property and that of third-party suppliers from unintended disclosure and/or other consequences.”</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>「うまく設計されたオープン ソース コンプライアンス プロセスは、オープン ソース ライセンス条項の遵守を確実にすると同時に、企業が自身の知的財産およびサードパーティ サプライヤの知的財産を意図しない漏洩やその他の結果から保護するのにも役立ちます。」</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Ibrahim Haddad – Vice President of R&amp;D and Head of the Open Source Group at Samsung Research America</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>Ibrahim Haddad – Samsung Research America 社 R&amp;D 担当バイスプレジテント兼オープン ソース グループ長</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>There are several benefits companies can experience from maintaining an open source compliance program:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース コンプライアンス プログラムを維持することにより、企業は次のようなメリットを得ることができます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Gain a technical advantage.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・技術的優位性の確保。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Since compliant software portfolios are easier to service, test, upgrade, and maintain.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>これは、準拠ソフトウェアのポートフォリオを容易に提供、テスト、アップグレード、維持できるために実現されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Identify crucial pieces of open source code.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・オープン ソース コードの重要部分の特定。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>You’ll discover what code is in use across multiple products and parts of your organization, and/or are highly strategic and beneficial to your open source strategy.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>複数の製品や組織の部署にまたがって使用されているコードや、オープン ソース戦略にとって特に重要で有益なコードを把握できます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Demonstrate the costs and risks associated with using open source components.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・オープン ソース コンポーネントの使用に関するコストとリスクの実証。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This is easier to see when code goes through multiple rounds of review.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コードのレビューを複数回にわたって行うと、より容易に把握できます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Build community trust.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・コミュニティの信頼の構築。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In the event of a compliance challenge, such a program can demonstrate an ongoing pattern of acting in good faith.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コンプライアンスに関する問題が生じた場合、このようなプログラムにより、継続して誠意をもって行動する姿勢を示すことができます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Prepare for a possible acquisition, sale, or new product or service release.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・起こりうる買収、売却、あるいは新製品/サービスのリリースなどへの備え。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This is a less common ways benefit, but compliance assurance is a mandatory practice before the completion of such transactions.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>これは、あまり一般的ではないメリットですが、このような取引を完了させるうえで、コンプライアンス保証は必須です。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Build credibility in the supply chain.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・サプライ チェーン内の信頼関係の構築。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>You can improve compliance across your software supply chain, dealing with OEMs and downstream vendors.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>OEM や下流ベンダーとのやり取りを通じて、ソフトウェア サプライ チェーン全体のコンプライアンスを強化できます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 2</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 2</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Within your open source program you’ll want to create a designated open source compliance team that’s tasked with ensuring open source compliance.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース プログラムでは、オープン ソース コンプライアンスの確保を目的とする専任のオープン ソース コンプライアンス チームを作ります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The core team, often called the auditing team or the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and the Compliance Officer (who is typically the open source program manager).</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>中核となるチームは、監査チームまたはオープン ソース レビュー ボード (OSRB: Open Source Review Board) と呼ばれ、エンジニアリング チームと製品チームの担当者、1 人以上の法務専門家、およびコンプライアンス オフィサー (通常、オープン ソース プログラム マネージャー) で構成されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Other individuals across multiple departments also contribute on an ongoing basis to your open source compliance efforts: documentation, supply chain, corporate development, IT, localization and the Open Source Executive Committee (OSEC) which oversees the overall open source strategy.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ドキュメント製作、サプライ チェーン、経営企画、IT、ローカライゼーション、オープン ソース戦略全体を監督するオープン ソース執行委員会 (OSEC: Open Source Executive Committee) など、他のさまざまな部門の人々も、拡張チームのメンバーとしてオープン ソース コンプライアンスの取り組みに継続的に貢献しています。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>But unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ただし、中核チームと異なり、拡張チームのメンバーは、OSRB から依頼された作業に基づいてパートタイム ベースでコンプライアンスに取り組むだけです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The OSRB is in charge of creating an open source compliance strategy and a set of processes that determine how a company will implement these rules on a daily basis.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>OSRB は、オープン ソース コンプライアンス戦略を策定し、企業が日常的に規則をどのように実施するかを決定する一連のプロセスを作成する責任を担っています。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The strategy establishes what must be done to ensure compliance and offers a governing set of principles for how employees interact with open source software.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この戦略では、コンプライアンス確保のために何をすべきかを決定し、従業員がオープン ソース ソフトウェアとどのように向き合えばよいかについて一連の統治原則を提供します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>It includes a formal process for the approval, acquisition, and use of open source, and a method for releasing software that contains open source or that’s licensed under an open source license.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>これには、オープン ソースの承認、取得、使用のための正式なプロセス、およびオープン ソースを含むソフトウェアまたはオープン ソース ライセンスでライセンスされたソフトウェアのリリース方法が含まれます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 3</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 3</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The usage policy is an essential component of any compliance program.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>利用ポリシーは、すべてのコンプライアンス プログラムにとって不可欠なコンポーネントです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This set of rules is included in your open source strategy document (you have one, right?) and made available to everyone for easy reference.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この一連の規則は、オープン ソース戦略文書 (既にお持ちのはずです) に含まれ、誰でも入手して簡単に参照できるようになっています。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The usage policy ensures that any software (proprietary, third-party, or open source) that makes its way into the product base has been audited, reviewed, and approved.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>利用ポリシーは、製品を支えるすべてのソフトウェア (プロプライエタリ、サードパーティ製、オープン ソースを問わず) の監査、レビュー、承認が完了していることを保証するものです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>It also ensures that your company has a plan to fulfill the license obligations resulting from using the various software components, before your products make it to customers.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>また、さまざまなソフトウェア コンポーネントを使用することで生じたライセンス義務を履行するための計画を、製品が顧客の元に届く前に立ててあることを保証します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>There is no need to make a lengthy or complicated document.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>長い文書や複雑な文書を作成する必要はありません。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>A good open source usage policy includes six simple rules:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>適切なオープン ソース利用ポリシーには、次の 6 つの簡単な規則が含まれます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Engineers must receive approval from the OSRB before integrating any open source code in a product.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・技術者は、オープン ソース コードを製品に統合する前に OSRB から承認を得る必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Software received from third parties must be audited to identify any open source code included, which ensures license obligations can be fulfilled before a product ships.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・サードパーティから受け取ったソフトウェアは、監査を受けて、含まれているオープン ソース コードを特定する必要があります。これにより、製品出荷前にライセンス義務を確実に履行することができます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・All software must be audited and reviewed, including all proprietary software components.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・すべてのソフトウェアは、すべてのプロプライエタリ ソフトウェア コンポーネントも含めて、監査およびレビューを受ける必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Products must fulfill open source licensing obligations prior to customer receipt.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・製品は、顧客が受け取る前にオープン ソース ライセンス義務を履行する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Approval for using a given open source component in one product is not approval for another deployment, even if the open source component is the same.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・ある製品で特定のオープン ソース コンポーネントの使用が承認されても、その同じオープン ソース コンポーネントを別の展開で使用することが承認されたことにはなりません。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・All changed components must go through the approval process.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・変更されたコンポーネントはすべて、承認プロセスを経る必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 4</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 4</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>5-stage code review process</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>5 段階のコード レビュー プロセス</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Once you have a policy in place, you must plan and create a process that makes it easy to apply the policy.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>利用ポリシーを策定したら、そのポリシーを容易に適用できるプロセスを計画し、作成します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Your job is to grease the wheels for developer use of open source and contribution to open source projects.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>開発者がオープン ソースの利用とオープン ソース プロジェクトへの貢献を円滑に行えるようにする必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>“If your code review process is overly burdensome, you’ll slow innovation or provide a good excuse for developers to circumvent the process completely.”</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>「コードのレビュー プロセスがあまりに面倒なものだと、イノベーションのスピードが落ちたり、開発者にプロセス全体を回避する格好の口実を与えることになります。」</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The process begins by scanning the source code of the software package in question, then moves on to identifying and resolving any discovered issues, performing legal and architectural reviews, and making a decision regarding the usage approval.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>プロセスではまず、対象となっているソフトウェア パッケージのソース コードをスキャンします。次に、発見された問題を特定および解決し、法的レビューとアーキテクチャ レビューを行ったのち、利用承認に関する決定を行います。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The diagram, below, illustrates a simplistic view of a compliance usage process.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>下の図は、コンプライアンス利用プロセスを単純化して図示したものです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In reality, the process is much more iterative in nature.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>実際には、プロセスはその性質上、はるかに双方向的です。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Keep in mind that these phases are for illustration purposes and may need to be modified depending on your company’s own needs and open source program configuration.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>以下の各段階は説明を目的としており、企業のニーズやオープン ソース プログラムの構成に応じて変更が必要な場合があることに注意してください。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Let’s walk through each stage in the process.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>プロセスの各段階を順を追って説明しましょう。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Stage 1: Source Code Scan</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>第 1 段階:  ソース コードのスキャン</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In the source code scanning phase, all the source code is scanned using a specialized software tools (there are many commercial vendors that offer such tools in addition to a couple open source alternatives).</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ソース コードのスキャン段階では、専門のソフトウェア ツールを使用して、すべてのソース コードがスキャンされます (このようなツールは、いくつかのオープン ソース ツールの他に、数多くの商用ベンダーから提供されています)。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This phase typically kicks off when an engineer submits an online usage form.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この段階は、通常、技術者がオンラインの利用フォームを提出することで開始されます </seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>(See the sample usage form and rules for using it, below.)</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>(以下のサンプルの利用フォームと利用規則を参照)。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The form includes all the information about the open source component in question, and specifies the location of the source code in the source code repository system.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このフォームには、対象となっているオープン ソース コンポーネントに関するすべての情報を含め、ソース コード リポジトリ システム内のソース コードの場所を指定します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The form submission automatically creates a compliance ticket in a system such as JIRA or Bugzilla and a source code scanning request will be sent to the designated auditing staff.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>フォームを提出すると、JIRA、Bugzilla などのシステムにコンプライアンス チケットが自動的に作成され、指定された監査スタッフにソース コード スキャン要求が送られます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Periodic full platform scans should also take place every few weeks to ensure that no open source software component has been integrated into the platform without a corresponding form.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>対応する利用フォームの提出なしにオープン ソース ソフトウェア コンポーネントがプラットフォームに統合されることがないようにするため、プラットフォームの定期的なフル スキャンも数週間ごとに行う必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If any was found, then a JIRA ticket is automatically issued and assigned to the auditing staff.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>何らかの問題が見つかった場合は、JIRA チケットが自動的に発行され、監査スタッフに割り当てられます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Some of the factors that can trigger a source code scan include:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ソース コードのスキャンが開始される要因には、次のようなものがあります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・An incoming usage form, usually filled out by engineering staff.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・利用フォーム (通常はエンジニアリング スタッフが入力) の受信。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・A periodically scheduled full platform scan.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・定期的にスケジュールされているプラットフォームのフル スキャン。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Such scans are very useful for uncovering open source code that snuck into your software platform without a usage form.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このようなスキャンは、利用フォームが提出されないままソフトウェア プラットフォームに密かに入り込んだオープン ソース コードを発見するのに非常に役立ちます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Changes in a previously approved software component.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・以前に承認されたソフトウェア コンポーネントの変更。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In many cases, engineers start evaluating and testing with a certain version of an OSS component, and later adopt that component when a new version is available.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>多くの場合、技術者はまず、OSS コンポーネントの特定のバージョンを評価およびテストし、その後、新しいバージョンが利用可能になると、そのコンポーネントを採用します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Source code is received from a third-party software provider who may or may not have disclosed open source.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・サードパーティ ソフトウェア プロバイダからのソース コードの入手。プロバイダがオープン ソースを公開しているかどうかは問いません。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Source code is downloaded from the web with an unknown author and/or license, which may or may not have incorporated open source code.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・作成者やライセンスが不明なソース コードの Web からのダウンロード。ソース コードにオープン ソース コードが組み込まれているかどうかは問いません。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・A new proprietary software component enters the build system where engineering may or may not have borrowed open source code and used it in a proprietary software component.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・新しいプロプライエタリ ソフトウェア コンポーネントのビルド システムへの組み込み。エンジニアリング担当者がオープン ソース コードを借用し、それをプロプライエタリ ソフトウェア コンポーネントで使用したかどうかは問いません。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>After the code is scanned, the scanning tool produces a report that provides information on:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コードのスキャンが終了すると、スキャン ツールは、以下の情報を提供するレポートを生成します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Known software components in use, also known as the software Bill of Materials (BoM)</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・使用されている既知のソフトウェア コンポーネント。ソフトウェア部品表 (BOM) とも呼ばれます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Licenses in effect, license texts, and summary of obligations</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・有効なライセンス、ライセンス テキスト、義務の概要</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・License conflicts to be verified by legal</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・法務専門家による検証が必要なライセンス抵触</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・File inventory</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・ファイル目録</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Identified files</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・識別されたファイル</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Dependencies</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・依存関係</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Code matches</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・コードの一致</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Files pending identification</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・識別保留中のファイル</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Source code matches pending identification</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・保留中の識別と一致するソース コード</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Note on Downloaded Open Source Packages</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ダウンロードしたオープン ソース パッケージに関する注意</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>It is vital to archive open source packages downloaded from the web in their original form.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>Web からダウンロードしたオープン ソース パッケージは、元の形のまま保管しておくことが重要です。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>These packages will be used in a later stage (prior to distribution) to verify and track any changes introduced to the source code by computing the difference between the original package and the modified package.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このパッケージは、後の段階で (配布前) 元のパッケージと変更後のパッケージの間の差分を計算することにより、ソース コードに加えられた変更を検証および追跡するために使用します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If a third-party software provider uses open source, the product team integrating that code into the product must submit an open source usage form describing the open source to be used.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>サードパーティ ソフトウェア プロバイダがオープン ソースを使用している場合、そのコードを製品に統合する製品チームは、使用されているオープン ソースについて記述したオープン ソース利用申請フォームを提出する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If the third-party software provider only provides binaries, not source code, then the product team and/or the software supplier manager who manages the relationship with the third-party software provider must obtain a confirmation (for instance, a scan report) that there is no open source in the provided software.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>サードパーティ ソフトウェア プロバイダがソース コードを提供せず、バイナリしか提供しない場合は、製品チーム、またはサードパーティ ソフトウェア プロバイダとの関係を管理するソフトウェア サプライヤ マネージャーは、提供されたソフトウェアにオープン ソースが含まれていないという確証 (たとえば、スキャン レポート) を得る必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Stage 2: Identification and Resolution</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>第 2 段階:  特定および解決</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In the identification and resolution phase, the auditing team inspects and resolves each file or snippet flagged by the scanning tool.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>特定および解決段階では、監査チームが、スキャン ツールによってフラグが付けられたファイルまたはスニペットを検査し、解決します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>For example, the scanning tool’s report can flag issues such as conflicting and incompatible licenses.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>たとえば、スキャン ツールのレポートは、矛盾するライセンスや互換性のないライセンスなどの問題にフラグを付けます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If there are no issues, then the compliance office will move the compliance ticket forward to the legal review phase.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>問題がない場合、コンプライアンス オフィサーはコンプライアンス チケットを法的レビュー段階へ進めます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If there are issues to be resolved, then the compliance officer creates subtasks within the compliance tickets and assigns them to the appropriate engineers to be resolved.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>解決すべき問題がある場合、コンプライアンス オフィサーはコンプライアンス チケット内にサブタスクを作成して、適切なエンジニアリング担当者に割り当てて解決させます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In some cases, a code rework is needed; in other cases it may simply be a matter of clarification.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コーディングし直す必要がある場合も、確認だけで済む場合もあります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The sub-tasks should include a description of the issue, a proposed solution to be implemented by engineering, and a specific timeline for completion.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>サブタスクには、問題の説明、エンジニアリング担当者が実施すべき解決策の提案、完了までのタイムラインを含める必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The compliance officer may simply close the subtasks once all issues are resolved and pass the ticket along for legal review.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>すべての問題が解決したら、コンプライアンス オフィサーはサブタスクを閉じ、チケットを法的レビューに渡すことができます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Or they might first order a re-scan of the source code and generate a new scan report confirming that earlier issues do not exist anymore.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>あるいは、まずソース コードの再スキャンを指示し、新しいスキャン レポートを生成してから、以前の問題がなくなったことを確認するという方法もあります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Once they’re satisfied that all issues are resolved, the compliance officer forwards the compliance ticket to a representative from the legal department for review and approval.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>すべての問題が解決されたと納得できたら、コンプライアンス オフィサーは、レビューと承認のためにコンプライアンス チケットを法務部門の担当者に送ります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In preparation for legal review, you should attach all licensing information related to the open source software to the compliance ticket, such as COPYING, README, LICENSE files, etc.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>法的レビューに向けた準備として、オープン ソース ソフトウェアに関連するすべてのライセンス情報 (COPYING、README、LICENSE ファイルなど) をコンプライアンス チケットに添付する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Stage 3: Legal Review</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>第 3 段階:  法的レビュー</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In the legal review phase, the legal counsel (typically a member of the open source review board, or OSRB) reviews reports generated by the scanning tool, the license information of the software component, and any comments left in the compliance ticket by engineers and members of the auditing team.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>法的レビュー段階では、法務専門家 (通常、オープン ソース レビュー ボード (OSRB) のメンバー) がスキャン ツールによって生成されたレポート、ソフトウェア コンポーネントのライセンス情報、エンジニアリング担当者や監査チームのメンバーがコンプライアンス チケットに残したコメントなどのレビューを行います。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>When a compliance ticket reaches the legal review phase, it already contains:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>法的レビュー段階に到達したコンプライアンス チケットには、既に以下が含まれています。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・A source code scan report and confirmation that all the issues identified in the scanning phase have been resolved.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・ソース コード スキャン レポート、およびスキャン段階で特定されたすべての問題が解決済みであることの確認。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Copies of the license information attached to the ticket: typically, the compliance officer attaches the README, COPYING, and AUTHORS files available in the source code packages to the compliance ticket.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・チケットに添付されたライセンス情報のコピー。通常、コンプライアンス オフィサーは、ソース コード パッケージで入手できる README、COPYING、および AUTHORS ファイルをコンプライアンス チケットに添付します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Other than the license information, which for OSS components is usually available in a COPYING or a LICENSE file, you need to also capture copyright and attribution notices as well.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ライセンス情報 (OSS コンポーネントでは、通常、COPYING ファイルまたは LICENSE ファイルで確認できます) の他に、著作権や帰属告知についても取得する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This information will provide appropriate attributions in your product documentation.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この情報は、製品ドキュメントに適切な帰属を提供します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Feedback from the compliance officer regarding the compliance ticket (concerns, additional questions, etc.).</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・コンプライアンス チケットに関するコンプライアンス オフィサーからのフィードバック (懸念事項、新たな疑問点など)。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Feedback from the engineering representative on the auditing team or from the engineer (package owner) who follows/maintains this package internally.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・監査チームに対するエンジニアリング担当者からのフィードバック、またはこのパッケージを内部で追跡/維持する技術者 (パッケージ所有者) からのフィードバック。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The goal of this phase is to produce a legal opinion of compliance, and a decision on the incoming and outgoing license(s) for the software component in question.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この段階の目標は、コンプライアンスに関する法務専門家の見解をまとめ、対象となっているソフトウェア コンポーネントでの使用ライセンスと被使用ライセンスについて決定することです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The incoming and outgoing licenses are in the plural form because in some cases, a software component can include source code available under different licenses.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ソフトウェア コンポーネントには複数のライセンスの下で利用できるソース コードが含まれている場合があるため、使用ライセンスと被使用ライセンスは、複数ある場合があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>There are three possible outcomes at this stage:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この段階では、次の 3 つの結果が得られる可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>No issues</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>問題なし</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If there are no issues with the licensing, the legal counsel would then decide on the incoming and outgoing licenses of the software component and forward the compliance ticket one step further in the process into the compliance architectural phase.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ライセンスに関して問題がない場合、法務専門家は、ソフトウェア コンポーネントの使用ライセンスと被使用ライセンスを決定し、コンプライアンス チケットのプロセスをコンプライアンスのアーキテクチャ段階へと一歩進めます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The incoming license is the license under which you received the software package.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>使用ライセンスは、受け取ったソフトウェア パッケージに対するライセンスです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The outgoing license is the license under which you are licensing the software package.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>被使用ライセンスは、自身がライセンスしているソフトウェア パッケージに対するライセンスです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In some cases, when the incoming license is a permissive license that allows relicensing (e.g., BSD), companies will relicense that software under their own proprietary license.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>場合によっては、使用ライセンスが再ライセンス (BSD など) を許可するパーミッシブ ライセンスであることがあり、その場合、企業は、自身のプロプライエタリ ライセンスの下でソフトウェアを再ライセンスします。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>A more complex example would be a software component that includes proprietary source code, source code licensed under License-A, source code that is available under License-B, and source code available under License-C.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>さらに複雑な例として、ソフトウェア コンポーネントにプロプライエタリ ソース コード、ライセンス A でライセンスされたソース コード、ライセンス B の下で利用できるソース コード、ライセンス C の下で利用できるソース コードが含まれる場合を考えます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>During legal review, the legal counsel will need to decide on the incoming and outgoing license(s):</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>法的レビュー時、法務専門家は、使用ライセンスと被使用ライセンスを次のように決定する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Incoming licenses= Proprietary License + License A + License B + License C</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>使用ライセンス = プロプライエタリ ライセンス + ライセンス A + ライセンス B + ライセンス C</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Outgoing license(s) = ?</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>被使用ライセンス = ?</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Issues</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>問題あり</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If a licensing issue is found, such as mixed source code with incompatible licenses, the legal counsel will flag these issues and reassign the compliance ticket in JIRA to engineering to rework the code.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>互換性のないライセンスを持つソース コードの混在など、ライセンスに関する問題が見つかった場合、法務専門家は、それらの問題にフラグを付け、JIRA のコンプライアンス チケットを再度エンジニアリング担当者に割り当てて、コードを修正させます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>For example, legal review may uncover that closely held intellectual property has been combined with an open source code package.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>たとえば、法的レビューにより、非公開の知的財産がオープン ソース コード パッケージと組み合わされていることが明らかになったとします。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Legal counsel will flag this and re-assign the compliance ticket to engineering to remove the proprietary source code from the open source component.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>法務専門家は、これにフラグを付け、コンプライアンス チケットを再度エンジニアリング担当者に割り当てて、オープン ソース コンポーネントからプロプライエタリ ソース コードを削除させます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In the event that engineering insists on keeping the proprietary source code in the open source component, the open source executive committee (OSEC) will have to release the proprietary source code under an open source license.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>エンジニアリング担当者がオープン ソース コンポーネントにプロプライエタリ ソース コードを保持することを主張する場合、オープン ソース執行委員会 (OSEC) は、オープン ソース ライセンスの下でプロプライエタリ ソース コードをリリースする必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Unclear</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>不明</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In some cases, if the licensing information is not clear or if it is not available, the legal counsel or engineering staff members contacts the project maintainer or the open source developer to clarify the ambiguities and to confirm under which license that specific software component is licensed.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ライセンス情報が不明確だったり、利用できない場合は、法務専門家またはエンジニアリング スタッフ メンバーがプロジェクト管理者またはオープン ソース開発者に問い合わせて、曖昧さを解決し、その特定のソフトウェア コンポーネントがどのライセンスの下にライセンスされているかを確認します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Stage 4: Architecture Review</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>第 4 段階:  アーキテクチャ レビュー</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In the architecture review, the compliance officer and an engineering representative on the auditing team or open source review board perform an analysis of the interaction between the open source, proprietary, and third-party code.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>アーキテクチャ レビューでは、監査チームまたはオープン ソース レビュー ボードのコンプライアンス オフィサーとエンジニアリング担当者が、オープン ソース、プロプライエタリ、およびサードパーティのコード間の相互作用を分析します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This is accomplished by examining an architectural diagram (see an example, below) that identifies:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>これは、以下を示すアーキテクチャ概略図 (以下の例を参照) を調べることで実施されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Open source components (used “as is” or modified)</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・オープン ソース コンポーネント (そのまま使用、または変更)</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Proprietary components</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・プロプライエタリ コンポーネント</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Components originating from third-party software providers</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・サードパーティ ソフトウェア プロバイダ起源のコンポーネント</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Component dependencies</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・コンポーネントの依存関係</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Communication protocols</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・通信プロトコル</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Other open source packages that the specific software component interacts with or depends on, especially if it is governed by a different open source license.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・特に、特定のソフトウェア コンポーネントが別のオープン ソース ライセンスによって管理されている場合、そのコンポーネントがやり取りするまたは依存する、その他のオープン ソース パッケージ。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The result of the architecture review is an analysis of the licensing obligations that may extend from open source to proprietary or third-party software components (and across open source components as well).</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>アーキテクチャ レビューの結果として、ライセンス義務に関する分析が得られます。ライセンス義務は、オープン ソースからプロプライエタリまたはサードパーティ ソフトウェア コンポーネントに及ぶ場合があり、また、複数のオープン ソース コンポーネントにまたがって及ぶ場合もあります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If the compliance officer discovers any issues, such as a proprietary software component linking to a GPL licensed component, the compliance officer forwards the compliance ticket to engineering for resolution.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コンプライアンス オフィサーが問題 (たとえば、GPL ライセンスされたコンポーネントにリンクしているプロプライエタリ ソフトウェア コンポーネント) を発見した場合、コンプライアンス オフィサーは解決のためにコンプライアンス チケットをエンジニアリング担当者に送ります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If there are no issues, then the compliance officer moves the ticket to the final stage in the approval process.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>問題がない場合は、コンプライアンス オフィサーはチケットを承認プロセスの最終段階へ送ります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Stage 5: Final Review</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>第 5 段階:  最終レビュー</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The final review is usually a face-to-face meeting of the auditing team or open source review board (OSRB) during which the team approves or rejects the usage of the software component.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>最終レビューは、通常、監査チームまたはオープン ソース レビュー ボード (OSRB) の対面での会議で行われ、この会議で、チームはソフトウェア コンポーネントの使用を承認または却下します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The team bases its decision on the complete compliance record of the software component, which includes the following:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>チームの決定は、ソフトウェア コンポーネントの完全なコンプライアンス レコードに基づいて行われますが、これには以下が含まれます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・A source code scan report generated by the scanning tool.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・スキャン ツールによって生成されたソース コード スキャン レポート。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・The list of discovered issues, information on how they were resolved, and who verified that these issues were successfully resolved.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・発見された問題のリスト、どのように解決されたかの情報、およびこれらの問題が適切に解決されたことを誰が検証したか。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Architectural diagrams and information on how this software component interacts with other software components.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・アーキテクチャ概略図、および対象ソフトウェア コンポーネントが他のソフトウェア コンポーネントとどのようにやり取りするかの情報。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Legal opinion on compliance, and decision on incoming and outgoing licenses.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・コンプライアンスに関する法務専門家の意見、および使用ライセンスと被使用ライセンスに関する決定。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Dynamic and static linkage analysis, if applicable in an embedded environment (C/C++).</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・組み込み環境 (C/C++) で該当する場合、動的および静的リンケージ分析。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>In most cases, if a software component reaches the final review, it will be approved unless a condition has presented itself (such as the software component is no longer in use).</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>ほとんどの場合、最終レビューに到達したソフトウェア コンポーネントは、何らかの条件が見つからない限り (ソフトウェア コンポーネントが使用されなくなった場合など)、承認されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Once approved, the compliance officer will prepare the list of license obligations for the approved software component and pass it to appropriate departments for fulfillment.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>承認されると、コンプライアンス オフィサーは、承認されたソフトウェア コンポーネントのライセンス義務のリストを作成して適切な部門に渡し、義務を履行させます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This can include:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>これには、以下が含まれます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Updating the software inventory to reflect that the specific OSS software component version x is approved for usage in product y, version z.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・特定の OSS ソフトウェア コンポーネントのバージョン x を製品 y のバージョン z で使用することが承認されたことを反映するように、ソフトウェア目録を更新します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Issuing a ticket to the documentation team to update end user notices in the product documentation, to reflect that open source is being used in the product or service.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・製品またはサービスでオープン ソースが使用されていることを反映するように製品ドキュメントのエンド ユーザー向け通知を更新するために、チケットをドキュメント製作チームに発行します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Triggering the distribution process before the product ships.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・製品出荷前に配布プロセスを開始します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Steps accomplished after the OSRB approval</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>OSRB 承認後に実施される手順</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The compliance officer tracks all open tickets and ensures their completion by the time the product ships or service launches.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コンプライアンス オフィサーは、すべてのオープンなチケットを追跡し、製品出荷時またはサービス開始時までに完了するようにします。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>For a more detailed usage process and possible scenarios, see our ebook Open Source Compliance in the Enterprise.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>詳細な利用プロセスと想定されるシナリオについては、電子書籍「企業におけるオープン ソース コンプライアンス」を参照してください。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 5</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 5</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Initial compliance, also called baseline compliance, happens when development starts, and continues until the release of the first version of the product.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>最初のコンプライアンス (ベースライン コンプライアンスとも呼ばれる) は、開発が開始された時点で発生し、製品の最初のバージョンのリリースまで継続します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The compliance team identifies all open source code included in the software baseline, and drives all of the source components through the five-stage approval process outlined above.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コンプライアンス チームは、ソフトウェア ベースラインに含まれるすべてのオープン ソース コードを特定し、すべてのソース コンポーネントに対して上述の 5 段階の承認プロセスを完了させます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>“It’s important to remember that open source compliance doesn’t stop with version 1.0.”</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>「オープン ソース コンプライアンスはバージョン 1.0 で終了ではないことをしっかりと覚えておいてください。」</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>You will also need to develop an incremental compliance process to check in on the source code once the product ships.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>製品出荷後は、ソース コードをチェックする増分コンプライアンス プロセスを開発する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This process starts when development begins on a new branch that includes additional features and/or bug fixes.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このプロセスは、追加機能やバグ修正などを含む新しいブランチに関する開発が始まったときに開始されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Incremental compliance is the process by which compliance is maintained when product features are added to the baseline version 1.0.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>増分コンプライアンスは、製品の機能がベースライン バージョン 1.0 に追加されたときにコンプライアンスを維持するためのプロセスです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Incremental Compliance</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>増分コンプライアンス</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Incremental compliance requires a comparatively smaller effort as opposed to the efforts involved in establishing baseline compliance.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>増分コンプライアンスは、ベースライン コンプライアンスの確立に必要な労力と比べると、比較的手間がかかりません。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>But several challenges can arise.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>しかし、いくつかの問題が生じる可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>You must correctly identify the source code that changed between version 1.0 and version 1.1, and verify compliance on the delta between the releases:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>バージョン 1.0 とバージョン 1.1 の間で変更されたソース コードを正確に特定し、リリース間の次のような差分についてコンプライアンスを検証する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・New software components may have been introduced.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・新しいソフトウェア コンポーネントが導入されている可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Existing software components may have been retired.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・既存のソフトウェア コンポーネントが廃止されている可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Existing software components may have been upgraded to a newer version.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・既存のソフトウェア コンポーネントが新しいバージョンにアップグレードされている可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・The license on a software component may have changed between versions.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・ソフトウェア コンポーネントのライセンスがバージョン間で変更されている可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Existing software components may have code changes involving bug fixes or changes to functionality and architecture.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・既存のソフトウェア コンポーネントで、バグ修正や機能/アーキテクチャの変更に伴うコード変更が行われている可能性があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The obvious question is: How can we keep track of all of these changes?</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>当然の疑問として、このような変更のすべてを追跡し続けるにはどうすればいいでしょうか？</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The answer is simple: a bill of material difference tool (BOM diff tool).</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>答えは簡単です。部品表比較ツール (BOM 比較ツール) の利用です。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Given the BOM for product v1.1 and the BOM for v1.0, we compute the delta and the output of the tool is the following:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>バージョン 1.1 の製品の BOM とバージョン 1.0 の製品の BOM がある場合、ツールを使用すると、差分を計算して以下を出力できます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Names of new software components added in v1.1</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・バージョン 1.1 で追加された新しいソフトウェア コンポーネントの名前</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Names of updated software components</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・更新されたソフトウェア コンポーネントの名前</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Names of retired software components</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・廃止されたソフトウェア コンポーネントの名前</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>With this information in hand, achieving incremental compliance becomes a relatively easy task:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この情報を入手できれば、増分コンプライアンスの実現は比較的容易な作業になります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Enter new software components into the five-phase usage approval process.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・新しいソフトウェア コンポーネントを 5 段階の利用承認プロセスに投入します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Compute a line-by-line diff of the source code in changed software components, and decide if you want to scan the source code again or rely on the previous scan.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・変更されたソフトウェア コンポーネントのソース コードの差分を 1 行ごとに計算し、ソース コードを再度スキャンするか、以前のスキャンを信頼するかを決定します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Update the software registry by removing the software components that are not used anymore.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・使用されなくなったソフトウェア コンポーネントを削除して、ソフトウェア レジストリを更新します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The diagram, below, provides an overview of the incremental compliance process.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>下の図に、増分コンプライアンス プロセスの概要を示します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The BOM file for each product release is stored on the build server.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>各製品リリースの BOM ファイルはビルド サーバーに保存されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The BOM diff tool takes two BOM files as input, each corresponding to a different product release, and computes the delta to produce a list of changes as previously discussed.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>BOM 比較ツールは、それぞれが異なる製品リリースに対応する 2 つの BOM ファイルを入力として使用して、差分を計算し、前述の変更リストを作成します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>At this point, the compliance officer will create new compliance tickets for all new software components in the release, update compliance tickets where source code has changed and possibly re-pass them through the process, and finally update the software registry to remove retired software components from the approved list.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この段階でコンプライアンス オフィサーは、当該リリースのすべての新しいソフトウェア コンポーネントに対して新しいコンプライアンス チケットを作成し、変更されたソース コードについてはコンプライアンス チケットを更新し、場合によってはプロセスを再度通過させ、最後に、ソフトウェア レジストリを更新することにより、廃止されたソフトウェア コンポーネントを承認リストから削除します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Example of Incremental compliance process</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>増分コンプライアンス プロセスの例</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Open source usage request form</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース利用申請フォーム</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Completing the open source usage request form is an important step when developers bring open source software into your company, and should be taken very seriously.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース利用申請フォームの記入は、開発者がオープン ソース ソフトウェアを企業に持ち込む際の重要なステップで、慎重に行う必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Developers fill out the online form requesting approval to use a given open source component.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>開発者は、特定のオープン ソース コンポーネントを使用する承認を求めるオンライン フォームに入力します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The form comprises several questions that will provide necessary information for the auditing team or open source review board, allowing it to approve or disapprove the usage of the proposed open source component.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このフォームはいくつかの質問で構成されており、監査チームまたはオープン ソース レビュー ボードは、これらの質問から得られる情報により、提案されたオープン ソース コンポーネントの使用を承認するかどうかを決定することができます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The table, below, highlights the information requested in an open source usage request form.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>次の表に、オープン ソース利用申請フォームで入力を求められる情報を示します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Usually, these values are chosen from a pull-down menu to make the data entry efficient.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>通常、これらの値はプルダウン メニューから選択できるため、データを効率よく入力できます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>There are several rules governing the OSRB usage form, for instance:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>OSRB 利用フォームに関しては、次のようないくつかの規則があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・The form applies only to the usage of open source in a specific product and in a specific context.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・フォームは、特定の製品および特定のコンテキストでのオープン ソースの利用に限定して適用されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>It is not a general approval of the open source component for all use cases in all products.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>すべての製品のすべてのユースケースについて、オープン ソース コンポーネントの一般的な承認を申請するためのものではありません。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・The form is the basis of audit activity and provides information the review team needs to verify if the implementation is consistent with the usage plan expressed in the form, and with the audit and architectural review results.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・フォームは監査活動の基礎です。レビュー チームは、実装がフォームで示されている利用計画や監査およびアーキテクチャ レビューの結果と一致しているかどうかを検証するために、フォームによって提供される情報を必要とします。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・The form must be updated and re-submitted whenever the usage plans for that specific open source component changes.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・当該オープン ソース コンポーネントの利用計画が変更された場合は必ず、フォームを更新して再提出する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・The auditing team or review board must approve the form before engineering integrates the open source into the product build.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・エンジニアリング担当者がオープン ソースを製品ビルドに統合する前に、監査チームまたはレビュー ボードがフォームを承認する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・The open source executive committee must approve the usage of any open source package where licensing terms require granting a patent license or patent non-assertion.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・オープン ソース執行委員会は、ライセンス条項が特許ライセンスの付与または特許の非係争を要求しているすべてのオープン ソース パッケージについて、使用を承認する必要があります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 6</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 6</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 7</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 7</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Open source compliance is an essential part of the software development process.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース コンプライアンスは、ソフトウェアの開発プロセスに不可欠のものです。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>If you use open source software in your product(s) and you do not have a solid compliance program, then you should consider this guide as a call to action.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>製品でオープン ソース ソフトウェアを使用しているにも関わらず、強固なコンプライアンス プログラムがない場合は、ぜひこのガイドをきっかけとして行動を起こしてください。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>At its core, open source compliance consists of a set of actions that control the intake and distribution of open source used in commercial products.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>本質的に、オープン ソース コンプライアンスは、商品で使用されるオープン ソースの取り込みと配布を管理する一連の活動で構成されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The result of compliance due diligence is an identification of all open source used in the product (components and snippets) and a plan to meet the license obligations.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>コンプライアンスのデュー デリジェンス (適正評価) の結果、製品で使用されるすべてのオープン ソース (コンポーネントおよびスニペット) が特定され、ライセンス義務の履行計画が策定されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>For a detailed guide to open source compliance download our free ebook, Open Source Compliance in the Enterprise by Ibrahim Haddad.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース コンプライアンスに関する詳細なガイドについては、無料の電子書籍「企業におけるオープン ソース コンプライアンス」(Ibrahim Haddad 著) をダウンロードしてください。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Section 8</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>セクション 8</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>An architectural diagram, used in the architecture review phase of the open source review process, illustrates the interactions between the various software components in an example platform.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース レビュー プロセスのアーキテクチャ レビュー段階で使用されるアーキテクチャ概略図に、プラットフォーム内のさまざまなソフトウェア コンポーネント間の相互作用を示します。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Here is an example architectural diagram that shows:</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>以下のアーキテクチャ概略図サンプルでは、次のものが示されています。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Module dependencies</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・モジュールの依存関係</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Open source components (modified versus as-is)</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・オープン ソース コンポーネント (変更されたものと元のままのもの)</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Dynamic versus static linking</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・動的リンクと静的リンク</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Kernel space versus user space</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・カーネル空間とユーザー空間</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Shared header files</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・共有ヘッダー ファイル</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>・Other open source components that the software component in question interacts or depends on, especially if it is governed by a different open source license</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>・特に、対象となっているソフトウェア コンポーネントが別のオープン ソース ライセンスによって管理されている場合、そのコンポーネントがやり取りするまたは依存する、その他のオープン ソース コンポーネント</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This template for an architectural diagram applies to an embedded environment that relies on C or C++.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このアーキテクチャ概略図のテンプレートは、C または C++ に依存する組み込み環境に適用されます。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>These resources were created in partnership with the TODO (Talk Openly, Develop Openly) Group – the professional open source networking group at The Linux Foundation.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>これらのリソースは、Linux Foundation のプロフェッショナルなオープン ソース ネットワーク グループである TODO (Talk Openly, Develop Openly) グループと協力して作成されました。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>A special thanks goes out to the open source program managers who contributed their time and knowledge to making these comprehensive guides.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>これらの包括的なガイドの作成に時間と知識を提供してくださったオープン ソース プログラム マネージャーの皆様に感謝いたします。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Participating companies include Autodesk, Comcast, Dropbox, Facebook, Google, Intel, Microsoft, Netflix, Oath (Yahoo + AOL), Red Hat, Salesforce, Samsung and VMware.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>参加企業は次のとおりです。Autodesk、Comcast、Dropbox、Facebook、Google、Intel、Microsoft、Netflix、Oath (Yahoo + AOL)、Red Hat、Salesforce、Samsung、VMware。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>To learn more, visit: todogroup.org</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>詳細については、次のサイトにアクセスしてください。todogroup.org</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>This work is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>この文書は、クリエイティブ・コモンズ表示 - 継承 4.0 国際ライセンスの下でライセンスされています。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Sign up to get updates!</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>登録して最新情報を入手してください。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Be the first to know when we add more open source guides and other content like this.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>オープン ソース ガイドや他の同様のコンテンツの追加情報をいち早くお届けします。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>First Name</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>名</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Last Name</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>姓</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Business Email</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>勤務先電子メール</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>SUBSCRIBE NOW »</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>今すぐ購読する »</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>The contents of this form are subject to The Linux Foundation's Privacy Policy.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>このフォームの内容は、Linux Foundation のプライバシー ポリシーの対象となります。</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>Copyright © 2018 The Linux Foundation®.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>Copyright © 2018 The Linux Foundation®.</seg>
+</tuv>
+</tu>
+<tu>
+<tuv xml:lang="en-US">
+<seg>All rights reserved.</seg>
+</tuv>
+<tuv xml:lang="ja-JP">
+<seg>All rights reserved.</seg>
+</tuv>
+</tu>
+</body>
+</tmx>
