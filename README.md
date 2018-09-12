@@ -19,7 +19,7 @@ https://www.linuxfoundation.jp/resources/open-source-guides/
 6. Using Open Source Code
 7. Starting an Open Source Project
 8. Improving Your Open Source Development Impact
-9．Open Source Guides Reading List
+9. Open Source Guides Reading List
 10. Winding Down an Open Source Project
 11. Building Leadership in an Open Source Community
 
