@@ -1,7 +1,7 @@
 # Open Source Guides For The Enterprise
 
 ここは、The Linux Foundation の Open Source Guides For The Enterprise ページ (下記) 
-で紹介されている英文ガイド集の日本語化作業に使用するファイルの保管場所です。
+で紹介されている英文ガイドの日本語化について共有する場所です。
 https://www.linuxfoundation.org/resources/open-source-guides/ 
 
 日本語化されたガイド集は、以下の「企業のためのオープンソース ガイド」ページで確認できます。
