@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.6.0_10_r10436" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>2.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094819Z" creationid="Koryu" creationdate="20180919T094819Z">
+        <seg>2. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>3.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T101208Z" creationid="Koryu" creationdate="20180919T101208Z">
+        <seg>3. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>4.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103508Z" creationid="Koryu" creationdate="20180919T103508Z">
+        <seg>4. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>5.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T104141Z" creationid="Koryu" creationdate="20180919T104141Z">
+        <seg>5. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>8 Steps to Open Source Development Impact in and for Your Enterprise</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T073649Z" creationid="Koryu" creationdate="20180919T073643Z">
+        <seg>貴社内における効果的なオープンソース育成のための8ステップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg><ph x="0">&lt;t0/&gt;</ph>A special<ph x="1">&lt;t1/&gt;</ph> thanks goes out to the open source program managers who contributed their time and knowledge to making these comprehensive guides.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105559Z" creationid="Koryu" creationdate="20180919T105559Z">
+        <seg>本ガイドの作成にあたり、時間と知識を提供して頂いたオープンソース プログラム マネージャーの皆様に感謝いたします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg><ph x="0">&lt;t0/&gt;</ph>If approached correctly, such contributions can earn their developers, and by extension, the employer, respect within the community.<ph x="1">&lt;t1/&gt;</ph> Developers also raise their visibility within the community by making <ph x="2">&lt;t2/&gt;</ph>solid contributions which leads<ph x="3">&lt;t3/&gt;</ph> to future job opportunities with companies that also benefit from their work.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T025940Z" creationid="Koryu" creationdate="20180919T025940Z">
+        <seg>正しいアプローチをもってすれば、これらの貢献はデベロッパー、ひいては採用者である企業のコミュニティー内における敬意の獲得につながります。また、有用な貢献はデベロッパーの認知度向上にもつながり、彼らの能力を必要とする企業への将来的な転職の機会も拡大します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg><ph x="0">&lt;t0/&gt;</ph>Schedule time for it accordingly.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093810Z" creationid="Koryu" creationdate="20180919T093810Z">
+        <seg>必要な時間を前もって確保しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg><ph x="1">&lt;t1/&gt;</ph>If they work for us that’s great.<ph x="2">&lt;t2/&gt;</ph> If they’re working for somebody else that’s also great because when we work together as a project the success of the project is our shared success.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T055925Z" creationid="Koryu" creationdate="20180919T055925Z">
+        <seg>彼らが我々の従業員であれば何よりですし、彼らが他社の社員なのであれば、プロジェクトにおける協業の成果を共有できるので、それもまた素晴らしいことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg><ph x="1">&lt;t1/&gt;</ph>Were motivated to help them succeed because their success is our success.<ph x="2">&lt;t2/&gt;</ph> We’re here to help the projects as well as the people on the projects.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063316Z" creationid="Koryu" creationdate="20180919T061953Z">
+        <seg>彼らの成功は我々の成功でもあるので、彼らを積極的に支援しています。我々は、プロジェクトのみならずプロジェクトの関係者をサポートするようにしています。」[原文：Were→We're]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>A company that’s new to open source may have less appeal, for example.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T065032Z" creationid="Koryu" creationdate="20180919T065032Z">
+        <seg>例えば、オープンソースへの新規参入企業は、人材によって魅力的に映らない場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>A competitive salary will get them in the door, but to retain them, make sure they are recognized for their contributions to open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T100210Z" creationid="Koryu" creationdate="20180919T100210Z">
+        <seg>競争力のある報酬は採用に役立ちますが、繋ぎ止めるためには、オープンソースの分野における貢献の認知が重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>A fluid labor pool is also just a natural result of working in the open.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110747Z" creationid="Koryu" creationdate="20180919T035223Z">
+        <seg>流動的な労働市場は、オープンな環境で働くということの自然な帰結であるといえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>A new hiring philosophy</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T040447Z" creationid="Koryu" creationdate="20180919T040447Z">
+        <seg>新たな採用哲学</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>A smart strategy identifies all the benefits you’re looking to gain from hiring top talent, and includes tactics for meeting those needs.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063808Z" creationid="Koryu" creationdate="20180919T063808Z">
+        <seg>優れた戦略は、トップクラスの人材の採用に求めるメリットをすべて考慮し、それらのニーズを満たすための戦術を内包していなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>According to a recent Cloud Foundry report, there are a quarter-million job openings for software developers in the U.S.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T012300Z" creationid="Koryu" creationdate="20180919T012114Z">
+        <seg>Cloud Foundryが最近作成したレポートによると、米国内だけで25万件の ソフトウェアデベロッパー採用枠と、テクノロジースキルを要する職種で50万件の採用枠があるとされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>According to the latest Open Source Jobs Report, open source developers say the best thing about their job is the ability to work on interesting projects, collaborate with a global community, and work on cutting-edge technology challenges.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110649Z" creationid="Koryu" creationdate="20180919T035129Z">
+        <seg>最新のOpen Source Jobs Reportによると、オープンソース デベロッパーが自らの仕事の一番良いところとして、「興味深いプロジェクトに参加できること、グローバルなコミュニティーと協業できること、そして最先端のテクノロジーに挑戦できること」を挙げています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Allow your developers working on products to spend a certain % of their time contributing upstream.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110956Z" creationid="Koryu" creationdate="20180919T073956Z">
+        <seg>2.  製品に関連する作業を行っているデベロッパーに、作業時間の一部を上流の開発に貢献するために充当することを許可する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>And companies increasingly see the value of paying developers to contribute upstream, for multiple reasons.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T025519Z" creationid="Koryu" creationdate="20180919T025519Z">
+        <seg>そして企業は、デベロッパーの上流への貢献に対価を支払うことに、複数の観点から価値を見出し始めています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>And they contribute to your own open source projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T041209Z" creationid="Koryu" creationdate="20180919T041209Z">
+        <seg>貴社内のオープンソースプロジェクトにも貢献します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>And they’re forecasting the number of unfillable developer jobs to reach one million within the next decade.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T012554Z" creationid="Koryu" creationdate="20180919T012554Z">
+        <seg>また、同レポートでは、今後10年間でデベロッパーの需要は、供給を100万件上回るとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Apprenticeships up the ante a bit with more structured, daily training exposure with top developers in closer supervision.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T073536Z" creationid="Koryu" creationdate="20180919T073536Z">
+        <seg>徒弟制度においては、より構造化された環境で、トップクラスのデベロッパーのより直接的な管理下で日々の育成が実現されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>As expected, the result has been a steady climb in pay as companies fiercely compete to attract and retain talent.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013942Z" creationid="Koryu" creationdate="20180919T013942Z">
+        <seg>この状況から容易に予想されるように、これらの人材を獲得・維持するための競争の結果、人件費は継続的に上昇しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Ask good developers in the company to attract more good developers through strategic networking, speaking engagements at conferences, and collaborating with others on open source projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T102428Z" creationid="Koryu" creationdate="20180919T102428Z">
+        <seg>社内の優秀なデベロッパーに、社外の優秀なデベロッパー獲得に通じる戦略的なネットワーキング、カンファレンスにおける登壇、そしてオープンソース プロジェクトにおける他者との協業などを要請しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Attend and support open source events</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T101305Z" creationid="Koryu" creationdate="20180919T101227Z">
+        <seg>オープンソース イベントに参加し、支援する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Attracting and retaining developers to your open source projects is equally important to doing so for employment at your company.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T054919Z" creationid="Koryu" creationdate="20180919T054919Z">
+        <seg>貴社のオープンソースプロジェクトにデベロッパーを呼び込み、維持することは、貴社での雇用でそうすることと同様に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Be specific and nail the time availability down.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093507Z" creationid="Koryu" creationdate="20180919T093507Z">
+        <seg>具体的な数字で、確保する時間を明示しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Be the first to know when we add more open source guides and other content like this.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110008Z" creationid="Koryu" creationdate="20180919T101301Z">
+        <seg>同様のコンテンツやオープンソース ガイドなどの公開情報を、いち早くお届けします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Because of this, they tend to be much more focused on the project’s value to the rest of the world, as opposed to making a product valuable to the company who makes it in a proprietary environment.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061555Z" creationid="Koryu" creationdate="20180919T060646Z">
+        <seg>これにより、彼らには、ひとつの会社の内製された商品よりも、世間一般に対する同プロジェクトの価値を追求する傾向が強く見受けられます。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Because your success is tied directly to the success of projects and developers, the best strategy is to ensure the success of all by making time for contributions a job priority.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093437Z" creationid="Koryu" creationdate="20180919T093437Z">
+        <seg>貴社の成功はプロジェクトやデベロッパーの成功に直接的に結びついているため、貢献のために時間を割く行為を職務上優先させることで全関係者の成功を確約することが、最善の戦略となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Before we dive into recruitment strategies, let’s talk about why open source participation can be an effective recruitment tool, as well as some of the challenges it presents to retaining top talent (see the next section).</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024921Z" creationid="Koryu" creationdate="20180919T023429Z">
+        <seg>採用戦略に触れる前に、なぜオープンソースへの参画が効果的な採用ツールとなり得るか、そしてなぜその行為がトップ人材の流出阻止における課題となるか（詳細は次項）について議論します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Besides, you have the added benefit of evaluating their work first hand.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103506Z" creationid="Koryu" creationdate="20180919T103506Z">
+        <seg>さらに、候補者の能力を直接査定することも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Best practices include searching projects on GitHub and projects that your company already uses to find and approach top contributors who may be interested in a new opportunity or who can suggest someone who is.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T064311Z" creationid="Koryu" creationdate="20180919T064311Z">
+        <seg>GitHubのプロジェクトや貴社が活用しているプロジェクト内において、貢献度が高く新天地を求めている人材やそのような人材を紹介できる人間を探すことがベストプラクティスとなっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Build your strategy and processes so that developers have a <ph x="0">&lt;t0/&gt;</ph>purpose and can see the effects of their work often.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T101041Z" creationid="Koryu" creationdate="20180919T101041Z">
+        <seg>デベロッパーが目的意識を持ち、また自身の仕事の成果を頻繁に目にする機会があるように自社戦略を構築しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But on projects your company deems critical, any delays in effecting project direction can lead to some serious issues in the project’s usability in an employer’s internal projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T062515Z" creationid="Koryu" creationdate="20180919T062515Z">
+        <seg>しかし、貴社にとって重要なプロジェクトにおいては、方向性への影響力の確立が遅れた場合、同プロジェクトの貴社内プロジェクトに対する有用性を大きく損ねる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But the most effective recruitment strategies aim toward a more complete open source transformation by adopting the tools, practices, and culture that open source developers are familiar with and desire.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T080149Z" creationid="Koryu" creationdate="20180919T080149Z">
+        <seg>しかし、もっとも効果的な採用戦略は、より完全なオープンソースへの変革を目指して、オープンソースのデベロッパーが慣れ親しみ求めるような各種ツール、プラクティス、文化などの導入を伴います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But there are other reasons companies have trouble recruiting established open source developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110838Z" creationid="Koryu" creationdate="20180919T064937Z">
+        <seg>しかし、経験豊富なオープンソース デベロッパーの採用の難しさには、需要過多以外にも理由があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But this guide is focused on strategies for recruiting developers that you employ.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061116Z" creationid="Koryu" creationdate="20180919T061116Z">
+        <seg>しかし、本ガイドは貴社が雇用するデベロッパーの採用に焦点を当てていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But those are not the only places they can build serious cred.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T070240Z" creationid="Koryu" creationdate="20180919T065857Z">
+        <seg>ただ、それ以外にも高い信頼性を確立できる場所は存在します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But you need a strategy, a set of processes, and goals in order to achieve this.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T023104Z" creationid="Koryu" creationdate="20180919T023104Z">
+        <seg>一方で、これを達成するためには、戦略、プロセス、そして目的の設定が必要となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But you will also want to spend time training developers who show an interest or eagerness in contributing to open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T065702Z" creationid="Koryu" creationdate="20180919T065702Z">
+        <seg>ただし、オープンソースに貢献したいという興味や意欲を示すデベロッパーの育成にも、一定の時間を割くべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But, sometimes initially you’ve got to bootstrap by hiring people who are already leaders in those communities.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063203Z" creationid="Koryu" creationdate="20180919T063203Z">
+        <seg>しかし、軌道に乗せるために、場合によっては初期段階で、すでにそのようなコミュニティーでリーダーとなっている人間を採用する必要性も生じることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>By all accounts, challenging projects are the top attraction for highly skilled, experienced open source developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103328Z" creationid="Koryu" creationdate="20180919T103328Z">
+        <seg>誰の意見を聞いても、優秀で経験豊富なオープンソースのデベロッパーにとってもっとも魅力的なのは、チャレンジングなプロジェクトという答えが返ってきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Camille Fournier says engineers want three things: rewards, respect, and purpose.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T023923Z" creationid="Koryu" creationdate="20180919T023923Z">
+        <seg>Camille Fournier氏は、エンジニアは「報酬・敬意・目的」の三つを欲する、としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Camille Fournier – Managing Director and head of Platform Engineering at Two Sigma and author of The Manager’s Path: A Guide for Tech Leaders Navigating Growth and Change, at Open Source Leadership Summit</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T022406Z" creationid="Koryu" creationdate="20180919T022406Z">
+        <seg>Camille Fournier （Two Sigma マネージング・ディレクターならびにプラットフォーム エンジニアリング責任者ならびにThe Manager’s Path: A Guide for Tech Leaders Navigating Growth and Change著者、Open Source Leadership Summitにおいて）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Cannibalizing the open source community for the sake of adding talent to your payroll is self-defeating.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T055143Z" creationid="Koryu" creationdate="20180919T055143Z">
+        <seg>貴社の雇用を維持する目的でオープンソース コミュニティーを枯渇させることは、最終的に貴社のメリットとなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Certainly, training programs are crucial in filling skill gaps and grooming candidates for succession plans should you lose key developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T065308Z" creationid="Koryu" creationdate="20180919T065308Z">
+        <seg>確かに、研修制度は不足しているスキルの穴埋めや主要な人材を失った際の後継者育成において重要な役割を果たします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Challenges to open source retention</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010643Z" creationid="Koryu" creationdate="20180919T010643Z">
+        <seg>オープンソースでの人材流出阻止における課題</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Collaboration is at the heart of all things open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T095910Z" creationid="Koryu" creationdate="20180919T095910Z">
+        <seg>オープンソースに関連するすべての事柄の中心にあるのが、協業の概念です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Companies are often frustrated in their efforts to recruit top open source developers mostly because there are so few available and they’re all in high demand.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T064843Z" creationid="Koryu" creationdate="20180919T064843Z">
+        <seg>オープンソースにおけるトップクラスの人材の採用は、需要過多であることから非常に難しく、各企業にとって大きな課題となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Companies can attract developers who are looking to up their game in a particular technology by establishing themselves as a desirable destination for open source developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T085527Z" creationid="Koryu" creationdate="20180919T085527Z">
+        <seg>企業は、自らがオープンソース デベロッパーにとって魅力的な職場であるという印象を確立することで、特定の技術分野で成長したいと考えているデベロッパーを採用しやすい状況を作ることができます。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Connecting their open source contributions to their work deliverables rather than letting it be a job perk will keep your developers’ focused on work, while earning them recognition in the community and attracting more developers to your company at the same time.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T092756Z" creationid="Koryu" creationdate="20180919T092756Z">
+        <seg>デベロッパーのオープンソースへの関与を単なる業務上のメリットとするのではなく、業務上の成果物と結びつけることで、彼らの業務意欲を向上させると同時にコミュニティー内における認知度の向上を促し、同時に自社への更なるデベロッパーの誘致までも視野に入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contents</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010447Z" creationid="Koryu" creationdate="20180919T010447Z">
+        <seg>概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contribute meaningfully.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T092233Z" creationid="Koryu" creationdate="20180919T092233Z">
+        <seg>意味のある関与を。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contribute on GitHub »</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011009Z" creationid="Koryu" creationdate="20180919T011009Z">
+        <seg>GitHubに貢献する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributors to this Guide</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011108Z" creationid="Koryu" creationdate="20180919T011108Z">
+        <seg>本ガイドへ貢献者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Contributors’ work is highly visible, not only to the people working on the project, but potential employers who see their GitHub activity as a public resume.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T035542Z" creationid="Koryu" creationdate="20180919T035542Z">
+        <seg>貢献者の成果は、プロジェクトに参画している人間だけでなく採用先となり得る企業の目にも止まりやすく、GitHubにおけるアクティビティーは、公開された履歴書のような機能を果たします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Create an internal open source culture.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094839Z" creationid="Koryu" creationdate="20180919T094839Z">
+        <seg>社内のオープンソース文化を醸成する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Develop and offer both technical and open source methodology training to your <ph x="0">&lt;t0/&gt;</ph>developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074147Z" creationid="Koryu" creationdate="20180919T074147Z">
+        <seg>4. 技術的な研修やオープンソース手法に関する研修を策定し、デベロッパーに提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Developer Shortage</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T012622Z" creationid="Koryu" creationdate="20180919T012622Z">
+        <seg>デベロッパーの不足</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Developers come to conferences to hear about new developments, interesting projects, and cool companies.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T102926Z" creationid="Koryu" creationdate="20180919T102926Z">
+        <seg>デベロッパーは、新しい開発や面白いプロジェクト、クールな会社などの情報を求めてカンファレンスに来場します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Developers gain respect and recognition through their technical contributions to open source projects and their leadership in open source communities.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T065845Z" creationid="Koryu" creationdate="20180919T065845Z">
+        <seg>デベロッパーは、オープンソース プロジェクトへの技術的な貢献やオープンソース コミュニティーにおけるリーダーシップの発揮によって、敬意や認知を得ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Developers have choices in open source, so you need to make your company attractive for the talent to apply.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T090152Z" creationid="Koryu" creationdate="20180919T090152Z">
+        <seg>オープンソースにおいてデベロッパーは売り手市場で選択肢を複数持っているため、企業には自社をより魅力的にする努力が求められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Developers work on their projects, first and foremost, and can easily move between employers that will pay them to work on the same project.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T031357Z" creationid="Koryu" creationdate="20180919T031357Z">
+        <seg>デベロッパーはプロジェクトを最重要視し、同じプロジェクトに従事する行為に賃金を支払う企業間で容易に転職することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Developers<ph x="0">&lt;t0/&gt;</ph> who are users or consumers of a project, are the logical candidates for the next generation of maintainers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T090437Z" creationid="Koryu" creationdate="20180919T065615Z">
+        <seg>特定のプロジェクトのユーザーは、そのプロジェクトの次世代のメンテナーとしては合理的な選択肢であるといえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Developing an IT infrastructure that enables developers to communicate and work with the global open source community without any bottlenecks or problems is an important first step.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T095723Z" creationid="Koryu" creationdate="20180919T095723Z">
+        <seg>デベロッパーのグローバルなオープンソース コミュニティーとの円滑な協業を可能にするITインフラの開発は、重要な最初のステップです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Different companies incorporate the ebb and flow of developers coming and leaving their employ into their hiring and retention strategies in different ways.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061346Z" creationid="Koryu" creationdate="20180919T061346Z">
+        <seg>会社によって、デベロッパーの入退社の波をどのように採用・雇用維持の戦略に織り込むかの方法論は異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Director, Open at Autodesk</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011215Z" creationid="Koryu" creationdate="20180919T011215Z">
+        <seg>Open at Autodesk ディレクター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Don’t get me wrong, the money is important as well, but if we think of it as recognition we can separate the monetary value from the emotional value.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024819Z" creationid="Koryu" creationdate="20180919T024757Z">
+        <seg>金銭的な報酬も大事であることに間違いはないが、それを認知の度合いと捉えた場合、金銭的な価値と感情面での価値を分けて考えることができる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Earning respect and building leadership as a corporate participant in open source takes more than one person.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T091953Z" creationid="Koryu" creationdate="20180919T091953Z">
+        <seg>敬意を獲得し、リーダーシップを醸成するためには、一個人の努力を超えた企業としての参画を要します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Effective recruitment appeals to developer motivation.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T023617Z" creationid="Koryu" creationdate="20180919T023617Z">
+        <seg>効果的な採用活動は、デベロッパーのモチベーションに訴えかけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Eighty-nine percent of hiring managers surveyed for the 2017 Open Source Jobs Report cite difficulty in finding the right open source skills and expertise.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T014619Z" creationid="Koryu" creationdate="20180919T014619Z">
+        <seg>2017 Open Source Jobs Report のアンケートに回答した採用担当者の89%が、必要としているオープンソースのスキルや専門性を持った人材の採用に苦労していると回答しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Either way, it’s important to have ongoing training programs always in place.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105159Z" creationid="Koryu" creationdate="20180919T105159Z">
+        <seg>いずれにせよ重要となるのは、常に何らかの研修プログラムを実行し続けることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Employers must have a complete strategy in place and it has to center on open source transformation — from tools and culture, to your whole philosophy and approach to development.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T030257Z" creationid="Koryu" creationdate="20180919T030257Z">
+        <seg>採用者である企業は、ツールや文化、哲学、開発アプローチに至るまで、すべての面でオープンソースへの変革に焦点を当てた完全な戦略を立案する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Even if your code and projects aren’t quite the stuff of legends, you earn a following by proving your worth to the community overall.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094321Z" creationid="Koryu" creationdate="20180919T094321Z">
+        <seg>コードやプロジェクトが「伝説級」のものでなくても、貴社のコミュニティーに対する存在価値を示すことで、仲間は増えていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Experienced open source developers are in short supply.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T005610Z" creationid="Koryu" creationdate="20180919T005610Z">
+        <seg>経験豊富なオープンソース デベロッパーは常に不足しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Experienced open source developers can also help to develop your internal open source culture and open source community leadership.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063652Z" creationid="Koryu" creationdate="20180919T063652Z">
+        <seg>経験豊富なオープンソースのデベロッパーは、貴社内のオープンソース文化やオープンソース コミュニティーにおけるリーダーシップの醸成に寄与することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Filling the talent pipeline will be important for meeting your open source objectives, including your ability to contribute strategically to the open source projects you depend on, as well as grow your own open source technologies and communities.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024909Z" creationid="Koryu" creationdate="20180919T023017Z">
+        <seg>貴社が必要とするオープンソース プロジェクトに対して戦略的に人材を送り込むことや、貴社のオープンソース技術ならびにコミュニティを育成すること含めて、貴社のオープンソース関連の目的達成においてはまず人材のパイプラインを満たすことが重要な役割を果たします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Five Strategies to recruit and retain open source developers</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010819Z" creationid="Koryu" creationdate="20180919T010819Z">
+        <seg>オープンソース デベロッパーの採用・流出阻止のための5つの戦略</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Five strategies for recruiting open source developers</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074755Z" creationid="Koryu" creationdate="20180919T074755Z">
+        <seg>オープンソース デベロッパーを採用するための5つの戦略</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For additional ideas on recruiting and retention strategies, see the predecessor to this guide, How to Recruit and Hire Open Source Developers from 2015.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105350Z" creationid="Koryu" creationdate="20180919T105350Z">
+        <seg>人材の採用や流出阻止に関するさらなるアイデアをご希望の場合は、本ガイドの以前のバーションである How to Recruit and Hire Open Source Developers（2015年）も併せてご覧ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For example, Hadoop, the centerpiece of the big data revolution, and something Yahoo knows a lot about given its role in helping birth it.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T084853Z" creationid="Koryu" creationdate="20180919T084819Z">
+        <seg>例えば、ビッグデータ革命の中枢にいるHadoopと、その誕生に寄与したYahooがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For example, lots of companies are investing in cloud based technologies, high-scale data analytics, and machine learning, <ph x="1">&lt;t1/&gt;</ph>If<ph x="2">&lt;t2/&gt;</ph> you want to attract developers in those areas, you’ll want to position your company as a meaningful participant in those open source ecosystems now.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T084304Z" creationid="Koryu" creationdate="20180919T083940Z">
+        <seg>例えば、現在多くの企業がクラウドテクノロジー、大規模データアナリティクス、マシンラーニングなどの分野に投資しています。これらの分野のデベロッパーを採用したい場合は、それらのオープンソース エコシステムにおける有力企業としてのポジションを確立することが重要となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For example, some companies offer more training and project exposure in order to attract more developers, while others prefer a less structured approach to developer support.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061513Z" creationid="Koryu" creationdate="20180919T061513Z">
+        <seg>例えば、採用率向上のために研修やプロジェクトへの参加をより強く打ち出す企業もあれば、デベロッパーのサポートにおいて画一性よりも柔軟性を重視する企業もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Gil Yehuda – Senior Director of Open Source at Oath (Yahoo + AOL)</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T091810Z" creationid="Koryu" creationdate="20180919T030728Z">
+        <seg>Gil Yehuda（Oath (Yahoo + AOL)オープンソース シニアディレクター）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Given that only one in eight U.S.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T014139Z" creationid="Koryu" creationdate="20180919T014139Z">
+        <seg>また同レポートによると、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Given that so much technology is based on open source these days, most of your tech roles should have something about open source in it.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T104138Z" creationid="Koryu" creationdate="20180919T104138Z">
+        <seg>昨今のテクノロジーの大半がオープンソースであるため、ほぼすべての職務に何らかのオープンソース的な要素が存在するはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Given the growing shortage of experienced open source developers, you’ll need to invest in training programs to strengthen and update the skills of in-house talent.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T104332Z" creationid="Koryu" creationdate="20180919T104332Z">
+        <seg>経験豊富なオープンソース デベロッパーの枯渇が進む中、内部育成を目的とした研修制度への投資に対する必要性が高まっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Guy Martin says he and Ibrahim Haddad, back when they started the open source group at Samsung, “were jokingly called the 50% tyrants” because of their strict enforcement of developers spending 50% of their paid working hours on upstream contributions.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093734Z" creationid="Koryu" creationdate="20180919T093734Z">
+        <seg>Guy Martin氏は、Ibrahim Haddad氏とともにSamsung内でオープンソース グループを立ち上げた際、上流への貢献に勤務時間の半分を割くことをあまりにも厳密に求めたことから「50%の暴君」と冗談半分に呼ばれていたそうです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Guy Martin – Director of Open at Autodesk (<ph x="0">&lt;t0/&gt;</ph>Open@ADSK<ph x="1">&lt;t1/&gt;</ph>)</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T040422Z" creationid="Koryu" creationdate="20180919T040422Z">
+        <seg>Guy Martin（Autodesk (Open@ADSK) Openディレクター）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hackathons are fun challenges packed with rewards (be those cash prizes or bragging rights), so they’re a perfect addition to your recruitment efforts.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103440Z" creationid="Koryu" creationdate="20180919T103440Z">
+        <seg>ハッカソンは楽しいチャレンジとともに魅力的な報酬（金銭や名声など）が提供されるため、採用活動の一環として申し分ない施策です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hire key developers and maintainers from the open source projects that are important to you.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110859Z" creationid="Koryu" creationdate="20180919T073731Z">
+        <seg>1. 貴社にとって重要となるオープンソース プロジェクトから、主要なデベロッパーやメンテナーを採用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Hiring Difficulty</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T012805Z" creationid="Koryu" creationdate="20180919T012805Z">
+        <seg>採用の難しさ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Host a hackathon</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103209Z" creationid="Koryu" creationdate="20180919T103209Z">
+        <seg>ハッカソンの開催。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>However, all developers run into open source questions.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061848Z" creationid="Koryu" creationdate="20180919T061848Z">
+        <seg>ただし、オープンソースに関する質問に直面するということは、すべてのデベロッパーに起こります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>However, merely offering time on the clock and company resources for developers to contribute to open source projects and communities isn’t enough to attract and retain top talent, either.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T030107Z" creationid="Koryu" creationdate="20180919T030107Z">
+        <seg>ただし、オープンソースプロジェクトやコミュニティーに貢献するための時間的な猶予や会社のリソースを提供するだけでは、トップ人材の採用には不十分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Ian Varley – Software Architect at Salesforce</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094814Z" creationid="Koryu" creationdate="20180919T094814Z">
+        <seg>Ian Varley （Salesforceソフトウェア アーキテクト）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Ibrahim Haddad, <ph x="0">&lt;t0/&gt;</ph>PhD  @<ph x="1">&lt;t1/&gt;</ph>IbrahimAtLinux</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074705Z" creationid="Koryu" creationdate="20180919T074637Z">
+        <seg>Ibrahim Haddad博士  @IbrahimAtLinux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If the role has an open source element to it, say so upfront.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T104031Z" creationid="Koryu" creationdate="20180919T104031Z">
+        <seg>職務にオープンソースの要素がある場合は、その旨を最初から明示しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you can adapt your projects to the open source processes internally, you’ll be able to succeed in external open source projects, where that flexibility is a must.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T095419Z" creationid="Koryu" creationdate="20180919T095419Z">
+        <seg>オープンソースのプロセスを社内で取り入れることができれば、このような柔軟性が必須となる外部でのオープンソース プロジェクトにおいても成功を収めることができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you understand what attracts developers to work for <ph x="0">&lt;t0/&gt;</ph>you,<ph x="1">&lt;t1/&gt;</ph> and on your open source projects (and open source, in general) you can structure your strategies in a way that appeals to them.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T023832Z" creationid="Koryu" creationdate="20180919T023816Z">
+        <seg>デベロッパーが貴社ならびに貴社のオープンソースプロジェクト（あるいはオープンソース全般）になぜ魅力を感じるかを理解することで、効果的な戦略を構築することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If your code and projects are interesting, they’ll attract developers to your company on their own.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094222Z" creationid="Koryu" creationdate="20180919T094222Z">
+        <seg>自社コードやプロジェクトが面白いものであれば、自ずと開発者が集まってきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you’re not paying people well, they’re not going to want to come to your company.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T022202Z" creationid="Koryu" creationdate="20180919T022141Z">
+        <seg>充分な報酬を支払う用意がなければ、貴社で働きたがる人間を探し当てるのは難しいでしょう。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>If you’re trying to quickly gain influence in an open source community where the developers you employ haven’t contributed, or don’t have much sway, hiring someone who is already skilled and influential in that project may be your only option to meet an immediate need.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T062728Z" creationid="Koryu" creationdate="20180919T062728Z">
+        <seg>特定のオープンソース コミュニティーにおいて貴社のデベロッパーが貢献しておらず発言力を持っていない状況で影響力を早急に確立する必要性がある場合、プロジェクト内でスキルと影響力を持った人材の採用が貴社のニーズを満たす唯一の方法となる場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In order to build leadership, you must lead by example.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094048Z" creationid="Koryu" creationdate="20180919T094048Z">
+        <seg>そしてリーダーシップを醸成するためには、自ら手本を示さなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In order to have influence in shaping a project, you must build leadership.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094006Z" creationid="Koryu" creationdate="20180919T094006Z">
+        <seg>プロジェクトの形成において影響力を持つためには、リーダーシップを醸成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In the corporate world, project teams are not usually open to allowing developers from other teams contribute code since it can disrupt their development cadence.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T095133Z" creationid="Koryu" creationdate="20180919T095012Z">
+        <seg>企業社会においては、開発のペースが乱れる可能性があるため、一般的には外部チームのデベロッパーのコードを取り入れることに否定的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In the ongoing search for some relief from the talent shortage, employers turn to growing their own talent pool internally.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T065213Z" creationid="Koryu" creationdate="20180919T065213Z">
+        <seg>企業は、人材不足の解消にむけた継続的な努力の一環として、社内の人材の育成に目を向けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Incentives and rewards.<ph x="0">&lt;t0/&gt;</ph> As mentioned earlier in this guide, open source developers are motivated by rewards, respect, and purpose.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T100037Z" creationid="Koryu" creationdate="20180919T100037Z">
+        <seg>インセンティブと報酬。本ガイドでも述べている通り、オープンソース デベロッパーは報酬、敬意、目的の三つに動機づけられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Incorporate open source into job descriptions.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103522Z" creationid="Koryu" creationdate="20180919T103522Z">
+        <seg>職務内容にオープンソースを追加する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Influential maintainers in open source communities have those skills and use them well.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T090606Z" creationid="Koryu" creationdate="20180919T090606Z">
+        <seg>オープンソース コミュニティーにおいて影響力を持つメンテナーは、それらのスキルを有し、また友好的に活用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Informal, on-the-job training with top developers can be <ph x="0">&lt;t0/&gt;</ph>kickstarted<ph x="1">&lt;t1/&gt;</ph> or supplemented by more formal programs as well.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T072419Z" creationid="Koryu" creationdate="20180919T072419Z">
+        <seg>トップクラスのデベロッパーとのインフォーマルなOJTは、よりフォーマルな研修プログラムで当初から加速させたり、補完することも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Interestingly, when companies pay developers to work in open source communities it feeds all three needs.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T025226Z" creationid="Koryu" creationdate="20180919T025226Z">
+        <seg>興味深いことに、デベロッパーがオープンソースコミュニティーで働くことに対して企業が対価を支払う場合、上記の三つのニーズはすべて満たされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Internally, plan on contributing and focus on areas that are useful to more than one business unit/ product line.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074619Z" creationid="Koryu" creationdate="20180919T074619Z">
+        <seg>8. 内部的に、複数の事業部門や製品ラインに活用できる分野に注力し貢献する計画を策定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Invest in training – build talent from within.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T104211Z" creationid="Koryu" creationdate="20180919T104211Z">
+        <seg>研修への投資：人材の内部育成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It can help with recruiting open source developers of all skill levels.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024914Z" creationid="Koryu" creationdate="20180919T022606Z">
+        <seg>これは、あらゆるスキル水準のオープンソース デベロッパーの採用においても有用となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It is also why a personal note from a project’s leaders goes so far, or a mention in a blog.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024655Z" creationid="Koryu" creationdate="20180919T024655Z">
+        <seg>ブログで功績について触れられることや、プロジェクトリーダーからの個人的なメモが効果的であるのも、同じ理由からだ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It pays to cultivate this next level of developers and include them in the open source decision-making process.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T065740Z" creationid="Koryu" creationdate="20180919T065740Z">
+        <seg>これらの次世代のデベロッパーを育成し、オープンソースの意思決定に参画させることは、将来的に利益をもたらします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It takes time for any developer to establish relationships in a project and gain influence.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T062346Z" creationid="Koryu" creationdate="20180919T062346Z">
+        <seg>デベロッパーがプロジェクト内で人間関係を構築し、影響力を持つようになるには時間がかかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It’s important to turn this thinking on its head by understanding that open source developers contribute to your company’s success at multiple levels.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T041020Z" creationid="Koryu" creationdate="20180919T041020Z">
+        <seg>旧来の考えを改め、オープンソースのデベロッパーは複数の観点から貴社の成功に貢献している、と捉えることが重要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Jeff Osier-<ph x="0">&lt;t0/&gt;</ph>Mixon<ph x="1">&lt;t1/&gt;</ph> – Open Source Community Manager at Intel Corporation</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024953Z" creationid="Koryu" creationdate="20180919T024810Z">
+        <seg>Jeff Osier-Mixon（Intel Corporation オープンソースコミュニティーマネージャー）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Joining and/or increasing current participation in open source projects makes your company more visible and more attractive to developers who are already skilled and working in that space.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T083549Z" creationid="Koryu" creationdate="20180919T083549Z">
+        <seg>オープンソース プロジェクトに参加したり、関与の度合いを高めることにより、貴社への注目度を高め、その分野で活躍しているデベロッパーの目に止まりやすい状況を作ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Last but not least, as Camille Fournier said in her talk, “ship often.” Open source developers like to see their work in production, to feel the thrill of finishing something and marking it done.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T100928Z" creationid="Koryu" creationdate="20180919T100928Z">
+        <seg>最後になりますが、Camille Fournier氏の談話にもあった通り、「出荷は頻繁に行いましょう。」デベロッパーは自らの仕事が製作工程に進むことや、何かを完成させたという達成感を好みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Many hiring managers say successful recruiting is anchored more to word of mouth than to marketing.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063852Z" creationid="Koryu" creationdate="20180919T063852Z">
+        <seg>多くの採用担当者は、成功する採用戦略の秘訣として、マーケティングよりも口コミの重要性を挙げます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Mentorships are a good way to build in more structure, without too much additional overhead.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T072526Z" creationid="Koryu" creationdate="20180919T072526Z">
+        <seg>メンター制度も、コストを抑制しつつ制度の構造化を図る上で有効な施策です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Mix challenging work with less taxing work to prevent exhaustion but keep interest high at the same time.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T101204Z" creationid="Koryu" creationdate="20180919T101204Z">
+        <seg>チャレンジングな仕事と、相対的に負担が少ない仕事を織り交ぜ、疲労の低減とモチベーションの維持を両立しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Money or a certain job title isn’t the end goal.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T031512Z" creationid="Koryu" creationdate="20180919T031512Z">
+        <seg>お金や特定の役職は、最終目的になり得ません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Much like you train developers to code in public, help them present in public.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T102552Z" creationid="Koryu" creationdate="20180919T102552Z">
+        <seg>公開ベースでコードを書くトレーニングを行うように、外の環境でプレゼンテーションを行うトレーニングも実行しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>My company has a hard time hiring developers with the required skills</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013432Z" creationid="Koryu" creationdate="20180919T013432Z">
+        <seg>自社では、必要とするスキルを持ったデベロッパーの採用に苦労している</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>My company has no problem hiring the skilled developers we need</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013357Z" creationid="Koryu" creationdate="20180919T013357Z">
+        <seg>自社では、必要な数の熟練したデベロッパーを問題なく採用できている</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>My response is – yes, absolutely – which is why having an open culture that they want to continue to work in is so critical.'”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T040333Z" creationid="Koryu" creationdate="20180919T040324Z">
+        <seg>それに対して、私は「そうだ、だから彼らが離職したくなくなるようなオープンの環境の醸成が必須となる」と答えている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Nithya<ph x="0">&lt;t0/&gt;</ph> Ruff – Senior Director Open Source Practice at Comcast</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T081831Z" creationid="Koryu" creationdate="20180919T081831Z">
+        <seg>Nithya<ph x="0">&lt;t0/&gt;</ph> Ruff （Comcast オープンソース プラクティス シニアディレクター）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Not only does this help your developers gain visibility and attract more talent, you are helping ensure that the open source projects you rely upon will support your future technical direction.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093026Z" creationid="Koryu" creationdate="20180919T093026Z">
+        <seg>デベロッパーの認知度向上や採用への貢献だけでなく、オープンソース プロジェクトが貴社の将来的な方向性をサポートすることにも同時に寄与します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Once you’ve identified great or even good developers working internally or externally in project communities that are important to you, ask for their wish list of co-workers and target those people for recruitment too.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T064500Z" creationid="Koryu" creationdate="20180919T064500Z">
+        <seg>プロジェクトのコミュニティーにおいて、社内外の優れた、あるいは良いデベロッパーを特定した場合、彼らが一緒に働きたいという人材のリストを作成し、その人材も採用候補に加えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>One of the biggest challenges with open source recruiting is that open source projects transcend company boundaries.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T031221Z" creationid="Koryu" creationdate="20180919T031221Z">
+        <seg>オープンソース分野での採用における最も大きな課題の一つとして、オープンソース プロジェクトがその性質上、企業間の壁を越えて広がっていくという点が挙げられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open Source Community Manager</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011139Z" creationid="Koryu" creationdate="20180919T011139Z">
+        <seg>オープンソース コミュニティ マネージャー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open source as a recruitment tool</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010525Z" creationid="Koryu" creationdate="20180919T010525Z">
+        <seg>採用ツールとしてのオープンソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open source developers — that is, developers with significant open source experience — are a subset of this population.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013641Z" creationid="Koryu" creationdate="20180919T013622Z">
+        <seg>オープンソース デベロッパー （オープンソースにおける充分な経験を持ったデベロッパー）は、この母集団の一部です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open source is at the heart of almost all technologies now, therefore it should be a part of most technology job descriptions.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103636Z" creationid="Koryu" creationdate="20180919T103636Z">
+        <seg>現在においては、オープンソースはほぼすべてのテクノロジーの中心に位置づけられているため、ほぼすべてのテクノロジー関連の職種における職務内容の一部として記載されるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open source projects are usually more receptive to outside help and manage two versions of their code, one that is more stable and one that is open to constant activity.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T095259Z" creationid="Koryu" creationdate="20180919T095259Z">
+        <seg>一方、オープンソース プロジェクトにおいては外部からの貢献を積極的に受け入れることが多く、より安定したコードと常に変更が行われているコードの2バージョンを管理します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open source your own code, create small pilot projects, and iterate on success.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093938Z" creationid="Koryu" creationdate="20180919T093938Z">
+        <seg>自社のコードをオープンソース化し、小さなパイロットプロジェクトを立ち上げ、成功体験を反復せよ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Or maybe you already employ a top developer on a key project, who then moves on to another opportunity and there isn’t sufficient time available to groom someone to take their place.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063510Z" creationid="Koryu" creationdate="20180919T063257Z">
+        <seg>あるいは、主要プロジェクトのためにトップクラスのデベロッパーをすでに採用していたものの転職されてしまい、代わりの人材を育成する時間がない場合もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Our engineers know that they work in an open source friendly environment where they are supported and encouraged to work with the open source communities that are relevant to their work.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T030653Z" creationid="Koryu" creationdate="20180919T030653Z">
+        <seg>我々のエンジニアは、自分達がオープンソースにフレンドリーな環境で働いていて、自らの業務に関連するオープンソースコミュニティーに携わることを奨励され、必要なサポートを受けられるということを理解しています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Participate and grow leadership in open source projects</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T083153Z" creationid="Koryu" creationdate="20180919T083153Z">
+        <seg>1. オープンソース プロジェクトに参加し、リーダーシップを確立する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Participate in open source events.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074157Z" creationid="Koryu" creationdate="20180919T074157Z">
+        <seg>5. オープンソースのイベントに参加する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Participating companies include Autodesk, Comcast, Dropbox, Facebook, Google, Intel, Microsoft, Netflix, Oath (Yahoo + AOL), Red Hat, Salesforce, Samsung and VMware.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105704Z" creationid="Koryu" creationdate="20180919T105704Z">
+        <seg>参加企業一覧：Autodesk、Comcast、 Dropbox、Facebook、Google、Intel、Microsoft、Netflix、Oath (Yahoo + AOL)、Red Hat、Salesforce、Samsung、VMware。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Participating in open source communities is the <ph x="0">&lt;t0/&gt;</ph>first,<ph x="1">&lt;t1/&gt;</ph> and most important thing you can do to attract open source developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T075133Z" creationid="Koryu" creationdate="20180919T075133Z">
+        <seg>オープンソース デベロッパーを獲得する際にまず行うべきである最も重要なことは、オープンソース コミュニティーへの参加です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Participating in open source projects takes a good understanding of community dynamics and a bit of experience.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T090256Z" creationid="Koryu" creationdate="20180919T090256Z">
+        <seg>オープンソース プロジェクトへの参加には、コミュニティーに作用する力学の理解と、ほんの少しの経験が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Participating in projects that match your future needs may help you get ahead in <ph x="0">&lt;t0/&gt;</ph>acquiring talent for your next projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T083754Z" creationid="Koryu" creationdate="20180919T083754Z">
+        <seg>将来的に必要となるプロジェクトに参加することにより、次期プロジェクトに必要となる人材の確保が容易になる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Pay developers to contribute and set aside time to work on open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093233Z" creationid="Koryu" creationdate="20180919T093233Z">
+        <seg>デベロッパーのオープンソースへの貢献や、そのための時間を割く行為に対して対価を支払う。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Perhaps the biggest surprise to employers is that the unique nature of open source developers and their movement between companies in a single project is as beneficial to their various employers as it is to the developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T060304Z" creationid="Koryu" creationdate="20180919T060304Z">
+        <seg>雇用者にとって一番の驚きは、オープンソース デベロッパー独特の同一プロジェクト内における転職が、当のデベロッパーだけでなく各雇用者にとっても、同じぐらいメリットがあるということかも知れません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Provide proper IT infrastructure that will allow your developers to <ph x="0">&lt;t0/&gt;</ph>comunicate<ph x="1">&lt;t1/&gt;</ph> and work with the global open source community without any challenges.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074404Z" creationid="Koryu" creationdate="20180919T074344Z">
+        <seg>6. デベロッパーがグローバルなオープンソース コミュニティーと制約なしで交流するために必要なITインフラを提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Purpose: A highly visible, challenging, and measurable goal.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024236Z" creationid="Koryu" creationdate="20180919T024236Z">
+        <seg>目的：目に見える、チャレンジングで測定可能な目標。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recruit established developers</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T062145Z" creationid="Koryu" creationdate="20180919T062145Z">
+        <seg>経験豊富なデベロッパーの採用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recruit or train?</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010735Z" creationid="Koryu" creationdate="20180919T010658Z">
+        <seg>採用か育成か？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recruiting Open Source Developers</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T004626Z" creationid="Koryu" creationdate="20180919T004626Z">
+        <seg>オープンソース デベロッパーの採用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recruiting established developers must be part of your plan.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T062233Z" creationid="Koryu" creationdate="20180919T062233Z">
+        <seg>経験豊富なデベロッパーの採用は、貴社の計画に必ず織り込む必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recruiting from this group can result in a mutually perfect match.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T083706Z" creationid="Koryu" creationdate="20180919T083706Z">
+        <seg>そこで採用活動を行うことで、企業とデベロッパーの双方にとって最適の組み合わせとなる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recruiting them, if you can, will help you build your internal open source culture and attract other top-notch developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T090657Z" creationid="Koryu" creationdate="20180919T090657Z">
+        <seg>それらの人材を採用することができれば、貴社内におけるオープンソース文化の醸成や、他のトップクラスのデベロッパーの採用に寄与することでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Regardless of your strategy, there are two basic approaches to building open source talent within your organization: Recruit and train.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T062113Z" creationid="Koryu" creationdate="20180919T062113Z">
+        <seg>貴社の戦略がどのようなものであっても、オープンソースの人材を充実させるための手法は、基本的に採用と育成の二つに集約されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Remember that influence follows the person, and not the company they work for.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063539Z" creationid="Koryu" creationdate="20180919T063539Z">
+        <seg>この場合、影響力は人材に帰属するもので、雇用主に帰属するものではないということを忘れてはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Respect: This is less tangible, but no less real, and is often pinned to professional recognition.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024157Z" creationid="Koryu" creationdate="20180919T024148Z">
+        <seg>敬意：無形ではあるものの確かに存在する概念であり、一般的にはプロフェッショナルとしての認知に関連付けられる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Rewards: Everything from salary to benefits and perks.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024258Z" creationid="Koryu" creationdate="20180919T024002Z">
+        <seg>報酬：給与・福利厚生・その他特典を含むすべて。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Section 1</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011354Z" creationid="Koryu" creationdate="20180919T011354Z">
+        <seg>セクション1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Section 2</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T023126Z" creationid="Koryu" creationdate="20180919T023126Z">
+        <seg>セクション2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Section 3</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T030734Z" creationid="Koryu" creationdate="20180919T030734Z">
+        <seg>セクション3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Section 4</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T060830Z" creationid="Koryu" creationdate="20180919T060830Z">
+        <seg>セクション4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Section 5</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074711Z" creationid="Koryu" creationdate="20180919T074711Z">
+        <seg>セクション5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Send developers to present at conferences and events</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T101333Z" creationid="Koryu" creationdate="20180919T101333Z">
+        <seg>デベロッパーをカンファレンスやイベントに送り込み、プレゼンテーションを行わせる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Send your developers and support them in presenting their work.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074236Z" creationid="Koryu" creationdate="20180919T074236Z">
+        <seg>デベロッパーを送り込み、作業内容の発表をサポートする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Senior Director, Open Source</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011155Z" creationid="Koryu" creationdate="20180919T011155Z">
+        <seg>オープンソース シニアディレクター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Senior Director, Open Source Practice</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011238Z" creationid="Koryu" creationdate="20180919T011238Z">
+        <seg>オープンソース プラクティス シニアディレクター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Senior and more experienced developers help junior and less experienced ones in resolving technical problems as needed and aid with training in open source methodology and open source culture.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T073213Z" creationid="Koryu" creationdate="20180919T073213Z">
+        <seg>より多くの経験を有するシニア デベロッパーが、必要に応じて、経験の少ない若手デベロッパーの技術的課題の解決やオープンソースの手法や文化に関するトレーニングを支援します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Set up a mentorship program where senior and more experienced developers guide junior, less experienced ones.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074047Z" creationid="Koryu" creationdate="20180919T074047Z">
+        <seg>3. 経験豊富なデベロッパーが、より経験の少ないデベロッパーを育成するメンター制度を策定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Set up an internal system to track the contributions of your developers and measure their impact.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T074517Z" creationid="Koryu" creationdate="20180919T074353Z">
+        <seg>7. デベロッパーの貢献度をトラックングする社内システムを構築し、影響度を測定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Show them you are serious about open source and you’ll get people who can help maintain, contribute to, or even be committers on your most important projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103945Z" creationid="Koryu" creationdate="20180919T103945Z">
+        <seg>貴社のオープンソースに対する本気度を示せば、貴社の最重要プロジェクトにおいてもメンテナー、貢献者、あるいはコミッターとして活躍してくれる人材を獲得することができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Showcasing the work your company is doing in its own open source projects is vitally important since developers cite their ability to work on interesting projects as the most effective way that recruiters can get their attention.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T082700Z" creationid="Koryu" creationdate="20180919T082700Z">
+        <seg>デベロッパーは、雇用者がデベロッパーの興味を引くためのもっとも効果的な方法として「面白いプロジェクトに参加できること」を挙げているため、自社が携わっているオープンソース プロジェクトを示すことは企業にとって肝要となっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sign up to get updates!</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105908Z" creationid="Koryu" creationdate="20180919T105908Z">
+        <seg>アップデート情報取得のために、ぜひご登録ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Since they’re all ears, shouldn’t you pick up the megaphone?</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103019Z" creationid="Koryu" creationdate="20180919T103019Z">
+        <seg>情報を求めているのであれば、大々的に宣伝してみてはいかがでしょうか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Since word of mouth is <ph x="0">&lt;t0/&gt;</ph>key<ph x="1">&lt;t1/&gt;</ph> to recruitment, this is a good place to fan all the goodness developers will talk about amongst themselves.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T100719Z" creationid="Koryu" creationdate="20180919T100719Z">
+        <seg>採用において口コミは非常に重要なので、デベロッパー同士の会話でこのような話題が取り上げられるように仕向けましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Skilled open source developers can command a premium.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T014511Z" creationid="Koryu" creationdate="20180919T014511Z">
+        <seg>熟練したオープンソース デベロッパーは、平均以上の年収を要求することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>So it is, in the end, that all prosper.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T060732Z" creationid="Koryu" creationdate="20180919T060732Z">
+        <seg>よって、最終的にはすべての関係者がメリットを享受できることになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>So make it a team priority to get involved and stay involved as a company.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T092223Z" creationid="Koryu" creationdate="20180919T092223Z">
+        <seg>企業として、チームとして、長期的な取り組みを心がけてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>So we do more occasional course-correction than we do formal training in open source processes.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061748Z" creationid="Koryu" creationdate="20180919T061546Z">
+        <seg>そのため、当社ではオープンソース プロセスに関するフォーマルな研修よりも、状況に応じた軌道修正を行うことの方が多くなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>So while the first step in any developer recruitment strategy is sufficient economic incentive, it is only the opening bid.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T022510Z" creationid="Koryu" creationdate="20180919T022510Z">
+        <seg>以上のように、充分な経済的インセンティブを用意することはデベロッパー採用戦略の第一歩となりますが、これは入口にすぎません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Software Architect</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011253Z" creationid="Koryu" creationdate="20180919T011253Z">
+        <seg>ソフトウェア アーキテクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Somewhat 18%</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013234Z" creationid="Koryu" creationdate="20180919T013113Z">
+        <seg>やや同意する 18%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Somewhat 23%</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013407Z" creationid="Koryu" creationdate="20180919T013407Z">
+        <seg>やや同意する 23%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Somewhat 30%</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013305Z" creationid="Koryu" creationdate="20180919T013305Z">
+        <seg>やや同意する 30%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sponsor and/or set up a booth at open source events</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T111004Z" creationid="Koryu" creationdate="20180919T102835Z">
+        <seg>オープンソース関連イベントでのスポンサーや、ブース出展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sponsoring an event and setting up a booth are two ways to clearly showcase your company, its support of the open source community, and developer opportunities to the very people you hope to recruit.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103202Z" creationid="Koryu" creationdate="20180919T103202Z">
+        <seg>スポンサーやブース出展は、貴社そのものに加えて、オープンソース コミュニティーをサポートする意欲やデベロッパーの活躍の機会を、採用の対象となる候補の方に直接あぴーすする絶好の手段です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Startups, even those in stealth mode, can work on public open source projects to establish their cred and influence and attract talent even before they reveal their product offering.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T085944Z" creationid="Koryu" creationdate="20180919T085944Z">
+        <seg>自社の存在を極力明らかにしない「ステルスモード」にいるスタートアップであっても、公になっているオープンソース プロジェクトに参加し、製品・サービス群を公表する前の段階においても、信頼性や影響力を向上させることで人材を集めることが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Strongly 18%</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013215Z" creationid="Koryu" creationdate="20180919T013109Z">
+        <seg>強く同意する 18%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Strongly 20%</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013402Z" creationid="Koryu" creationdate="20180919T013402Z">
+        <seg>強く同意する 20%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Strongly 27%</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013436Z" creationid="Koryu" creationdate="20180919T013436Z">
+        <seg>強く同意する 27%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Strongly 34%</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013313Z" creationid="Koryu" creationdate="20180919T013313Z">
+        <seg>強く同意する 34%</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Such opportunities are a top draw at companies where very experienced, well known, and talented engineers are plentiful.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T072011Z" creationid="Koryu" creationdate="20180919T072011Z">
+        <seg>そのような機会は、経験と才能が豊富で著名なエンジニアを数多く抱える企業に優位性を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Take a strategic approach.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T083401Z" creationid="Koryu" creationdate="20180919T083201Z">
+        <seg>戦略的なアプローチの採用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Taken as a whole, these five key strategies will not only help with hiring and retaining talented developers, but also help support your overall investment in open source for business strategy.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T083028Z" creationid="Koryu" creationdate="20180919T083028Z">
+        <seg>以下の5つの主要戦略は貴社の採用活動や才能ある人材の流出阻止だけでなく、事業戦略に寄与するオープンソース関連投資全体をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Target projects your company works with now and/or may soon.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T083354Z" creationid="Koryu" creationdate="20180919T083354Z">
+        <seg>貴社が現在取り組んでいるプロジェクトや、近い将来取り組む可能性のあるプロジェクトに注力しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Tell prospective candidates if the role expects them to contribute to or manage open source projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103703Z" creationid="Koryu" creationdate="20180919T103703Z">
+        <seg>候補者には、オープンソース プロジェクトへの貢献が求められるかを明示しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>That is the way of open source and the unique value in both projects and developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T060826Z" creationid="Koryu" creationdate="20180919T060826Z">
+        <seg>それがオープンソースの在り方であり、プロジェクトやデベロッパー独自の価値観でもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>That means you’re competing with companies all over the globe for the same pool of talent.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013838Z" creationid="Koryu" creationdate="20180919T013838Z">
+        <seg>つまり、貴社はこれらの人材の獲得に関して、世界中の企業と競合することになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>That’s the beauty of open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093033Z" creationid="Koryu" creationdate="20180919T093033Z">
+        <seg>これが、オープンソースの素晴らしいところです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The Jobs Report also found that 60 percent of hiring managers are seeking to hire open source talent, and half are looking for candidates holding certifications.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T014810Z" creationid="Koryu" creationdate="20180919T014810Z">
+        <seg>Jobs Report の調査結果においても、採用担当者の60%がオープンソース系の人材を探しており、半数が何らかの認証を取得している人材を探していると回答しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The current average developer salary is $104,425, according to one recent report.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T014032Z" creationid="Koryu" creationdate="20180919T014032Z">
+        <seg>直近のあるレポートによると、現在の平均的なデベロッパーの年収は $104,425となっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The goal is to maintain and nourish each project’s commercial ecosystem which just happens to exist both inside and outside your company.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T055018Z" creationid="Koryu" creationdate="20180919T055018Z">
+        <seg>最終亭な目標は、貴社内から社外まで拡がる各プロジェクトの商業的なエコシステムを維持・発展させることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The good news is that your contributions also steer the open source projects in the direction your company needs.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T092845Z" creationid="Koryu" creationdate="20180919T092845Z">
+        <seg>さらに、貴社の貢献はオープンソース プロジェクトを貴社が望む方向に進めることをも意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The growing shortage of developers is well documented.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T011610Z" creationid="Koryu" creationdate="20180919T011438Z">
+        <seg>デベロッパーの不足が年々悪化している状況について、各メディアで取り上げられています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The key is in supporting their work within and without company boundaries.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T055312Z" creationid="Koryu" creationdate="20180919T055312Z">
+        <seg>ここでのカギは、彼らの社内外双方での仕事をサポートすることにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The people they meet will be more likely to adopt your projects if they hear about them from the developers who wrote the code.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T102728Z" creationid="Koryu" creationdate="20180919T102728Z">
+        <seg>そのような場で出会った人は、コードを書いたデベロッパーから直接話が聞けるため、プロジェクトを導入してくれる可能性も高まります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The situation is similar in high-scale big data analytics.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T084324Z" creationid="Koryu" creationdate="20180919T084324Z">
+        <seg>大規模なデータアナリティクスにおいても、状況は似ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The tools open source developers use are different, too, and generally require a different infrastructure or platform.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T095530Z" creationid="Koryu" creationdate="20180919T095530Z">
+        <seg>オープンソースのデベロッパーが使用するツールも、他のものとは異なる場合が多く、一般的には別のインフラやプラットフォームを必要とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Their career path is fluid and driven by a continuous search for professional development and personal fulfillment – dubbed “respect” by Fournier and “recognition” by Osier-<ph x="0">&lt;t0/&gt;</ph>Mixon<ph x="1">&lt;t1/&gt;</ph>.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110631Z" creationid="Koryu" creationdate="20180919T031710Z">
+        <seg>デベロッパーのキャリアパスは流動的で、プロフェッショナルとしての成長や個人の充足感の飽くなき追及に突き動かされます。それを、上記のFournier氏は「敬意」と称し、Osier氏は「認知」と呼んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>There are a variety of ways to incorporate training programs, from offering sessions designed to address specific open source concerns, such as license compliance, contribution processes and code mirroring, to apprenticeships where developers work alongside more experienced open source developers, to mentorships that provide help on sticky communal problems.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105054Z" creationid="Koryu" creationdate="20180919T105054Z">
+        <seg>ライセンスに関するコンプライアンス、貢献のプロセス、コードのミラーリングといったオープンソースにおけ特定の課題に関するセッションの開催から、経験豊富なデベロッパーを若手と結びつける徒弟制度、あるいはコミュニティー内のウェットな問題の解決をサポートするメンター制度まで、研修プログラムの導入には様々な方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>There are many open source projects where employers aim to make specific contributions that advance their own work and products.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T025651Z" creationid="Koryu" creationdate="20180919T025651Z">
+        <seg>企業が自社の製品やサービスに寄与する特定の分野での貢献を目指すオープンソースプロジェクトは多数存在します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>There is no shortage of skilled developers to meet global demand</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T012947Z" creationid="Koryu" creationdate="20180919T012947Z">
+        <seg>熟練したデベロッパーを、グローバルなレベルで充分に確保できている</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>There is now or will soon be a shortage of skilled developers</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013135Z" creationid="Koryu" creationdate="20180919T013135Z">
+        <seg>現在、もしくは近い将来に熟練したデベロッパーが不足する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>These are all true but let’s <ph x="1">&lt;t1/&gt;</ph>be<ph x="2">&lt;t2/&gt;</ph> real, if you want to get people in the door, you need to create economic incentive.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T022056Z" creationid="Koryu" creationdate="20180919T022056Z">
+        <seg>これらは決して間違ってはいませんが、現実を見つめることも大事です。経済的なインセンティブなしでは、優秀な人材の採用は困難となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>These days, many developers are looking to build their open source skills.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103804Z" creationid="Koryu" creationdate="20180919T103750Z">
+        <seg>昨今においては、デベロッパーは自らのオープンソース関連のスキルを向上させることを目指す傾向があるため、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>These resources were created in partnership with the TODO (Talk Openly, Develop Openly) Group – the professional open source networking group at The Linux Foundation.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105456Z" creationid="Koryu" creationdate="20180919T105456Z">
+        <seg>これらのリソースは、Linux Foundation内のプロフェッショナル向けオープンソース ネットワーキング グループであるTODO (Talk Openly, Develop Openly) Groupと共同で作成されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>They are also in great demand, and even more rare because they often work remotely due to the distributed nature of open source communities.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T013750Z" creationid="Koryu" creationdate="20180919T013750Z">
+        <seg>彼らは引く手数多であり、オープンソース コミュニティの分散された性質上、リモートで作業するため発見するのがとても困難です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>They can use the event to test an idea and to announce a new open source project.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T102643Z" creationid="Koryu" creationdate="20180919T102643Z">
+        <seg>実験的なアイデアの共有や新規オープンソース プロジェクトの発表の場として、イベントを活用しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>They care about working on cool tech; they care about learning and growing.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T021923Z" creationid="Koryu" creationdate="20180919T021923Z">
+        <seg>という神話があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>They contribute on the company’s behalf to outside projects that you consider strategic to your business <ph x="0">&lt;t0/&gt;</ph>strategy and product development.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T041151Z" creationid="Koryu" creationdate="20180919T041151Z">
+        <seg>彼らは、会社の名において、戦略や製品開発に重要な外部プロジェクトに貢献し、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>They don’t use your product, and they don’t necessarily see what you do, but they take a look at your open source projects and say ‘Hey, it looks like this company is actually involved in a lot of really neat stuff.’ It’s kind of a window for them to see the great engineering that’s going on inside of the company that they otherwise wouldn’t be able to see.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094754Z" creationid="Koryu" creationdate="20180919T094754Z">
+        <seg>エンジニアはSalesforceのサービスを使用することはありませんし、何をしている会社なのかもわかりづらいかも知れませんが、関与しているオープンソース プロジェクトを見てもらうことにより、「面白い事に取り組んでいる会社だな」と思ってもらうことができます。社内で行われている、普段は見えづらいような素晴らしいエンジニアリングを見てもらうための窓のような役割を果たしています。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>They’ll want jobs that give them experience, or that leverage the experience they already have.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T103838Z" creationid="Koryu" creationdate="20180919T103838Z">
+        <seg>経験を得られる仕事や、取得した経験を発揮できる仕事を求めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This guide covers how organizations can recruit developers, or build internal talent, by building an open source culture, contributing to open source communities, and creating open source projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010441Z" creationid="Koryu" creationdate="20180919T010441Z">
+        <seg>本ガイドは、企業・団体等における、オープンソース文化の醸成・オープンソースコミュニティへの貢献・オープンソース プロジェクトの立ち上げを通じたデベロッパーの採用や内部育成について触れていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This is how your organization gains visibility, and credibility, in open source communities.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T075322Z" creationid="Koryu" creationdate="20180919T075322Z">
+        <seg>これにより、オープンソース コミュニティー内における貴社の認知度や信頼性が高まります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This is where your open source program comes in.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024903Z" creationid="Koryu" creationdate="20180919T022522Z">
+        <seg>ここで重要となるのが、記者のオープンソース プログラムです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This is why a hedge fund manager can get a $6 million bonus and quit in a huff because they expected $8 million.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024538Z" creationid="Koryu" creationdate="20180919T024538Z">
+        <seg>だからこそ、6百万ドルのボーナスを得たヘッジファンドのマネージャーであっても、8百万ドルを期待していた場合、簡単に職を辞することがある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This means the salary climb will likely continue over the foreseeable future, fueled by competitive necessity.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T025058Z" creationid="Koryu" creationdate="20180919T014930Z">
+        <seg>これらの結果は、採用競争による賃金水準の上昇が今後しばらくの間、続いていくことを示唆しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This means you need to commit to contributing significant work rather than just going through the paces.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T092409Z" creationid="Koryu" creationdate="20180919T092409Z">
+        <seg>これは、必要最低限のステップを踏むだけでなく、意味のある貢献にコミットする必要があるということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This reality is often disconcerting to the more structured corporate world which is better attuned to reaping a return on its investments – particularly in people — and commonly regards developers as interchangeable.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T040904Z" creationid="Koryu" creationdate="20180919T040904Z">
+        <seg>構造化された企業は、特に人材に関しては投資に対するリターンを求める傾向が強く、一般的にデベロッパーを「換えが効くもの」と捉えていることが多いため、上記の事実に直面した際、当惑することになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This respect should be earned, but once achieved, it must be consistently present.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T100322Z" creationid="Koryu" creationdate="20180919T100322Z">
+        <seg>敬意は従業員自身が勝ち取る必要がありますが、彼らが一度勝ち取った敬意に関しては、常に示してあげる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This shift in philosophy around talent acquisition and retention is part of the culture shift that happens within an organization when it undergoes open source transformation.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T060049Z" creationid="Koryu" creationdate="20180919T060049Z">
+        <seg>人材の採用と維持に関連するこれらの哲学的な変化は、組織のオープンソースへの変革に伴う文化的な変化の一部です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This speaks to the motivations of developers who contribute to open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T031449Z" creationid="Koryu" creationdate="20180919T031449Z">
+        <seg>これは、オープンソースに貢献するデベロッパーのモチベーションについて重要な点を示唆しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This way, you can attract future contributors and future new hires.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T102816Z" creationid="Koryu" creationdate="20180919T102816Z">
+        <seg>そうすることにより、将来的な貢献者や採用候補の募集にも貢献できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This work is licensed under a Creative Commons Attribution <ph x="0">&lt;t0/&gt;</ph>ShareAlike<ph x="1">&lt;t1/&gt;</ph> 4.0 International License.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105837Z" creationid="Koryu" creationdate="20180919T105837Z">
+        <seg>この情報は、Creative Commons Attribution  ShareAlike 4.0 International Licenseによりライセンスされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This works to your advantage as a recruiter, but also against you as an employer.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T035629Z" creationid="Koryu" creationdate="20180919T035629Z">
+        <seg>この状況は、貴社が採用者となる場合には有用ですが、人材流出を阻止する立場の場合は大きな課題となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>To attract top talent, companies have to do more than hire a recruiter or place an ad on a popular job site.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010007Z" creationid="Koryu" creationdate="20180919T005727Z">
+        <seg>企業がトップレベルのタレントを採用するためには、リクルーターを採用したり、有力な転職サイトに広告を掲示するだけでは不十分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>To learn more, visit: todogroup.org</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105748Z" creationid="Koryu" creationdate="20180919T105748Z">
+        <seg>追加の情報に関しては、todogroup.orgをご覧ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>To pass the test of time, your company will need to show real commitment beyond one person’s own passion.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T092050Z" creationid="Koryu" creationdate="20180919T092050Z">
+        <seg>長期に亘り信頼されるためには、一人の人間の意欲だけではなく、企業としてのコミットメントを示す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Tools and practices.<ph x="0">&lt;t0/&gt;</ph> An open source culture can feel alien to the corporate world, but efforts to build it are not futile.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T095040Z" creationid="Koryu" creationdate="20180919T094931Z">
+        <seg>ツールとプラクティス。一般的な企業社会においてオープンソース文化は異質に感じるかもしれませんが、それを醸成する努力は無駄になりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Train developers on open source</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T064536Z" creationid="Koryu" creationdate="20180919T064536Z">
+        <seg>デベロッパーにオープンソース分野の育成を実行する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Training is also a welcomed perk for developers seeking to improve their <ph x="0">&lt;t0/&gt;</ph>skills in open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T065406Z" creationid="Koryu" creationdate="20180919T065406Z">
+        <seg>また、研修制度は、オープンソースのスキルを開発したいデベロッパーにとって魅力的な制度にもなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Usually the pushback you’ll get from companies is ‘if they make themselves so appealing, they can get poached.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T040243Z" creationid="Koryu" creationdate="20180919T040243Z">
+        <seg>企業は大抵「エンジニアが自らの市場価値を高めすぎると、他社にかすめ取られてしまう。」と反論する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>View All Guides »</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010956Z" creationid="Koryu" creationdate="20180919T010956Z">
+        <seg>すべてのガイドを見る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>We absolutely have to have open source talent in the company to drive what we’re trying to do moving forward.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T084135Z" creationid="Koryu" creationdate="20180919T084135Z">
+        <seg>我々の今後の事業を推し進める上で、社内にオープンソースの人材を確保することは不可欠になります。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>When to recruit vs. train</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T060848Z" creationid="Koryu" creationdate="20180919T060848Z">
+        <seg>採用か育成か？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>While there is no doubt that good code and community leadership builds a reputation that attracts talent, recruitment efforts must go beyond this level of developer engagement.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T102302Z" creationid="Koryu" creationdate="20180919T102302Z">
+        <seg>良質なコードやコミュニティー内におけるリーダーシップが採用に役立つ評判に寄与することは間違いありませんが、採用活動においてはさらなるデベロッパーとのエンゲージメントが求められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>While traditional recruiters are still used, human resources and recruiting teams are looking beyond the traditional places for developers.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T064004Z" creationid="Koryu" creationdate="20180919T064004Z">
+        <seg>従来型のリクルーターも活用されているものの、人事部門や採用チームは、デベロッパーを求めて他の場所にも目を向けています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Why you need a recruitment strategy</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010458Z" creationid="Koryu" creationdate="20180919T010458Z">
+        <seg>採用戦略の重要性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Without it, respect and recognition cannot exist.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024327Z" creationid="Koryu" creationdate="20180919T024327Z">
+        <seg>これがなくては、敬意や認知は存在し得ない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Working alongside great developers in high-visibility positions and projects is a big score, too.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T071029Z" creationid="Koryu" creationdate="20180919T070342Z">
+        <seg>認知度の高いプロジェクトや立ち位置において偉大なデベロッパーと協業することも効果的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Yahoo, now a part of Oath, is renowned for its work in other high-scale computing projects, and attracts developers who are interested in developing their big data skills.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T085044Z" creationid="Koryu" creationdate="20180919T085044Z">
+        <seg>現在はOathの一部であるYahooは、他の大規模演算プロジェクトへの関与で有名であり、 ビッグデータ関連のスキルを伸ばしたいデベロッパーにとって魅力的な雇用者です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Yes, it’s that important.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T093749Z" creationid="Koryu" creationdate="20180919T093749Z">
+        <seg>それだけ重要だ、ということを示す事例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Yet, recruiting from open source communities is often a necessity because that is where one finds experienced developers for that project.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T055237Z" creationid="Koryu" creationdate="20180919T055237Z">
+        <seg>一方で、各プロジェクトの経験者が存在するという意味では、オープンソース コミュニティーからの採用は必然でもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You can structure any of these formally or informally.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T105130Z" creationid="Koryu" creationdate="20180919T105108Z">
+        <seg>これらはいずれもフォーマル・インフォーマル双方の形式で構築可能ですが、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You lead and build trust by making your own code open source, creating small pilot projects and iterating on your successes.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094146Z" creationid="Koryu" creationdate="20180919T094146Z">
+        <seg>リーダーとして信頼を獲得するためには、自社のコードをオープンソース化し、小さなパイロットプロジェクトを立ち上げ、成功体験を反復します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You need to put training together and start working with <ph x="1">&lt;t1/&gt;</ph>people in the company to begin to groom them for that kind of leadership.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T063039Z" creationid="Koryu" creationdate="20180919T063039Z">
+        <seg>研修を策定し、社員をリーダーに育て上げる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You want to become a place where people are free to be open and contribute to open source and to make themselves more valuable as individuals.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T040156Z" creationid="Koryu" creationdate="20180919T040142Z">
+        <seg>オープンな活動を支持し、オープンソースへの貢献を通じてエンジニアが自身の市場価値を高められるような職場を目指さなければならないが、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Your hiring and retention strategy is most meaningful to your company and its developers when it addresses both internal and external talent.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061017Z" creationid="Koryu" creationdate="20180919T061017Z">
+        <seg>貴社の採用ならびに雇用維持に係る戦略は、社内外双方の人材を念頭に置いた際に、貴社とそのデベロッパーにとってもっとも効果的なものとなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Your open source program can become one of your most effective recruiting tools.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T010125Z" creationid="Koryu" creationdate="20180919T010125Z">
+        <seg>貴社のオープンソースプログラムは、貴社の最も強力な採用ツールとなり得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Your single most passionate open source leader could leave at any time, and you’d have to start over from scratch.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T092200Z" creationid="Koryu" creationdate="20180919T092150Z">
+        <seg>唯一の意欲的なオープンソース リーダーが退職してしまった場合、企業としてのプレゼンス確立に関しては、一からやり直しとなってしまうので、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You’ll also want to learn from these skilled developers and develop internal guidance so that you can help other open source developers you hire or train to succeed in becoming influential in open source communities too.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T090935Z" creationid="Koryu" creationdate="20180919T090935Z">
+        <seg>また、これらの優秀なデベロッパーから学び、社内でガイダンスを作成することで、採用あるいは育成した他のオープンソース デベロッパーが各コミュニティーで影響力を行使できるようにすることも重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You’ll also want to use training to proactively groom successors for key project contributors so natural attrition and turnover doesn’t harm your company.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T104616Z" creationid="Koryu" creationdate="20180919T104616Z">
+        <seg>従業員の離職により生じるリスクを回避するために、主要プロジェクトへの貢献者の後継者育成の観点からも、研修による積極的な育成が重要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You’ll want to build that into your recruitment and retention strategy.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T100539Z" creationid="Koryu" creationdate="20180919T100539Z">
+        <seg>これは、採用や流出阻止の戦略に組み込むことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>alone and half a million unfilled jobs that require tech skills.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T012340Z" creationid="Koryu" creationdate="20180919T012340Z">
+        <seg> </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>high schools (13.2%) offer AP computer science classes, according to this same report, relief for the developer shortage isn’t likely to appear anytime soon.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T110624Z" creationid="Koryu" creationdate="20180919T014347Z">
+        <seg>米国の高校の1/8程度（13.2%）でしかAP（高校で受講できる大学レベルの授業）のコンピューターサイエンスの授業を提供していないため、需要過多の状況が近い将来において解消されることは期待できない状況にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>A lot of how you recruit should center on thinking consciously about how you change the perception of the open source community on what your company is about.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T080622Z" creationid="Koryu" creationdate="20180919T080622Z">
+        <seg>「採用の方法論は、オープンソース コミュニティーが持つ貴社に対する印象を如何に改善するかを意識的に考えることで導き出されるべきです。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>Domain expertise and leadership in open source can sometimes take quite a long time at established companies.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T062944Z" creationid="Koryu" creationdate="20180919T062944Z">
+        <seg>「オープンソースの特定ドメインにおける専門性やリーダーシップの確立は、成熟した企業においてはかなりの時間がかかる場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>For those who have never really worked on open source projects or with open source communities, we help them through the process of understanding all the things they shouldn’t do, all the things that can get them in trouble legally and communally, <ph x="1">&lt;t1/&gt;</ph>and<ph x="2">&lt;t2/&gt;</ph> all the things they should do, like how to work with people at other companies who are <ph x="3">&lt;t3/&gt;</ph>working on the same project but with slightly different goals, basically how to manage an external community.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T091744Z" creationid="Koryu" creationdate="20180919T091744Z">
+        <seg>「オープンソースのコミュニティーやプロジェクトに関与したことがない企業に関しては、法的あるいはコミュニティー的に問題となる可能性のある「やってはいけないこと」や、微妙に目的が異なる類似プロジェクトを実行している企業との協業などの「やるべきこと」など、要は外部コミュニティーの管理について理解を促す支援しています。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>If you are a company like Salesforce, it’s not always obvious to engineers why they <ph x="1">&lt;t1/&gt;</ph>might want to work for your company.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T094505Z" creationid="Koryu" creationdate="20180919T094505Z">
+        <seg>「例えばSalesforceのような会社である場合、エンジニアにとってどのような魅力がある雇用者であるのか、アピールが難しい場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>In the Yocto Project, several developers and at least two members of the governance have worked on YP from more than one company.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T060432Z" creationid="Koryu" creationdate="20180919T060432Z">
+        <seg>「Yoctoプロジェクトにおいて、数名のデベロッパーと、少なくとも2名のガバナンスチームメンバーが、複数の異なる会社から同プロジェクトに従事しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>Money is important, but it functions as a representation of recognition, not value.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T024427Z" creationid="Koryu" creationdate="20180919T024427Z">
+        <seg>「お金は大事だが、これは価値ではなく認知の指標として受け止められている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>Open source becomes a double-edged sword for HR organizations and engineering organizations when they’re hiring.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T040039Z" creationid="Koryu" creationdate="20180919T035635Z">
+        <seg>「人事部門やエンジニアを統括する部門にとって、採用活動におけるオープンソースは諸刃の剣となりかねない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>There is a myth about engineers that they don’t care much about money.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T021919Z" creationid="Koryu" creationdate="20180919T021907Z">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>「エンジニアは最新のテクノロジーに触れ、学び、成長することを重要視し、お金には余り執着しない」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>We really want to make sure that the top contributors in the world are contributing to our projects.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T055558Z" creationid="Koryu" creationdate="20180919T055552Z">
+        <seg>「世界トップクラスの貢献者が我々のプロジェクトに貢献しているという確証が、我々にとって何よりも重要となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>We seek to create a working environment that talent wants to be part of.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T030409Z" creationid="Koryu" creationdate="20180919T030409Z">
+        <seg>「我々は、人材が参画したくなるような作業環境の構築を目指しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>We try to hire people with experience in open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T061539Z" creationid="Koryu" creationdate="20180919T061539Z">
+        <seg>「採用においては、オープンソースの経験を持っている候補者の採用を目指しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>When companies establish open source practices they send a big message saying that we’re serious about open source and that we want to invest in it.”</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T081754Z" creationid="Koryu" creationdate="20180919T081754Z">
+        <seg>「企業は、オープンソース プラクティスを確立させることで、オープンソースに対する本気度や、オープンソースへの投資意欲に関する強いメッセージを発信することになります。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>“<ph x="0">&lt;t0/&gt;</ph>You can’t throw a stone more than five feet in cloud and not hit something that’s in open source.</seg>
+      </tuv>
+      <tuv xml:lang="JA" changeid="Koryu" changedate="20180919T084047Z" creationid="Koryu" creationdate="20180919T084034Z">
+        <seg>「クラウドの分野においてオープンソースを避けて通ることは不可能です。</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
