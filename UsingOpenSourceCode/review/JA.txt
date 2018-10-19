@@ -1,226 +1,98 @@
 ﻿The Linux Foundation
-The Linux Foundation
 
-Using Open Source Code
-オープン ソース コードの使用
-#用語 "オープン ソース"は "オープンソース" としてほしかった以下同じ：用語問題
+オープンソース コードの使用
 
-One of the most important responsibilities of an open source program office is ensuring that your organization meets its legal obligations when integrating open source code with proprietary and third-party source code in your commercial products.
-オープン ソース プログラム オフィスの最も重要な責務の 1 つは、オープン ソース コードを商品のプロプライエタリ ソース コードやサードパーティ ソース コードと統合する際に、組織が確実に法的義務を果たすようにすることです。
-#翻訳　商用の　は commercial products なので "商用製品" とすべき 
-#プロプライエタリソースコードは、プロプライエタリなソースコード
+オープンソース プログラム オフィスの最も重要な責務の 1 つは、オープンソース コードを商品製品のプロプライエタリなソース コードやサードパーティ ソース コードと統合する際に、組織が確実に法的義務を果たすようにすることです。
 
-You need to establish guidelines on how developers can use open source code, and detailed processes to track where open source code is coming from, how it’s licensed, and where it ultimately ends up.
 開発者がオープン ソース コードをどのように使用できるかのガイドライン、およびオープン ソース コードの出所がどこで、どのようにライセンスされ、最終的にどう使用されるかを追跡する詳細なプロセスを確立する必要があります。
 
-This guide gets you started with a baseline compliance program for using, releasing, and distributing open source code.
 このガイドでは、オープン ソース コードを使用、リリース、配布するためのベースライン コンプライアンス プログラムについて説明します。
 
-Contents
 目次
 
-1.
+1.コードの追跡とレビューの必要性
+2.コンプライアンスにおける役割と責任
+3.オープンソースコード利用のためのシンプルなポリシー
+4.5 段階のコード レビュー プロセス
+5.バージョン 1.0 後のプロセス
+6.オープン ソース利用申請フォーム サンプル
+7.終わりに
+8.アーキテクチャ概略図テンプレート
 
-Why track and review code
-コードの追跡とレビューの必要性
-
-2.
-
-Compliance roles and responsibilities
-コンプライアンスにおける役割と責任
-
-3.
-
-A simple policy for using open source code
-オープン ソース コードのシンプルな利用ポリシー
-#翻訳 policy for using open source code なので オープンソースコード利用のためのシンプルなポリシー
-
-
-4.
-
-Five-stage code review process
-5 段階のコード レビュー プロセス
-
-5.
-
-What to do after v1.0
-バージョン 1.0 後のプロセス
-
-6.
-
-Sample open source usage request form
-オープン ソース利用申請フォーム サンプル
-
-7.
-
-Final words
-終わりに
-
-8.
-
-Architecture diagram template
-アーキテクチャ概略図テンプレート
-
-View All Guides »
 すべてのガイドを表示 »
-
-Contribute on GitHub »
 GitHub に貢献する »
 
-Contributors to this Guide
 本ガイドの貢献者
 
 Ibrahim Haddad
-Ibrahim Haddad
-
-VP of R&D and Head of the Open Source Group
 Samsung Research America 社
-
-Samsung Research America
 R&D 担当 VP 兼オープン ソース グループ長
 #翻訳 米国企業の役職は日本語に翻訳しますか？ 誤って翻訳するとその企業に失礼
 
 --------------------------------
 
-Section 1
 セクション 1
 
-Why track and review code?
 コードの追跡とレビューの必要性
 
-Simply stated, if your company isn’t tracking how and where its developers use open source code, you’re at risk of non compliance with applicable open source licenses — this can be an expensive path to go through both in terms of legal fees and engineering time spent to correct the error.
-単純な話として、開発者がオープン ソース コードをどこでどのように使用しているかを把握してない企業は、適用されるオープン ソース ライセンスに違反する恐れがあります。これは、弁護士費用の点でも、エラーの修正に費やされるエンジニアリング時間の点でもコストがかかる結果になる可能性があります。
-#翻訳 legal fees が弁護士費用とするのは範囲が狭すぎるのではないか、engineering time spent to correct the error はエラーの修正ではなく、失敗の修正　とすべきでこれも範囲が狭い翻訳になっている
-
-Ignoring your open source legal obligations also has repercussions for your company’s reputation in the open source community.
+単純な話として、開発者がオープン ソース コードをどこでどのように使用しているかを把握してない企業は、適用されるオープン ソース ライセンスに違反する恐れがあります。これは、弁護士費用の点でも、失敗の修正に費やされるエンジニアリング時間の点でもコストがかかる結果になる可能性があります。
 また、オープン ソースの法的義務を無視することは、オープン ソース コミュニティ内で企業の評判を損なうことにもなります。
 
-An open source program office helps centralize policies and decision-making around open source consumption, distribution, and release, tracks code provenance and use, and ensures the organization doesn’t run afoul of its compliance obligations.
 オープン ソース プログラム オフィスは、オープン ソースの使用、配布、リリースに関わるポリシーおよび意思決定の一元化を支援し、コードの出所と使用を追跡して、組織がコンプライアンス義務に違反しないようにします。
 
-Ideally, your open source program includes a complete compliance program, developed with the help of your legal counsel.
-オープン ソース プログラムが包括的なコンプライアンス プログラムを含み、法務専門家の協力を得て開発されていることが理想的です。
-#てにをは オープンソースプログラムが -> は
+オープン ソース プログラムは包括的なコンプライアンス プログラムを含み、法務専門家の協力を得て開発されていることが理想的です。
 
-In this guide, we’ll cover one important aspect of your compliance program: your policy and processes for using, releasing, and distributing open source code.
 このガイドでは、コンプライアンス プログラムの重要な側面、つまりオープン ソース コードを使用、リリース、配布するためのポリシーとプロセスについて説明します。
 
-“A well-designed open source compliance process should simultaneously ensure compliance with the terms of open source licenses and also help companies protect their own intellectual property and that of third-party suppliers from unintended disclosure and/or other consequences.”
 「うまく設計されたオープン ソース コンプライアンス プロセスは、オープン ソース ライセンス条項の遵守を確実にすると同時に、企業が自身の知的財産およびサードパーティ サプライヤの知的財産を意図しない漏洩やその他の結果から保護するのにも役立ちます。」
 
-Ibrahim Haddad – Vice President of R&D and Head of the Open Source Group at Samsung Research America
 Ibrahim Haddad – Samsung Research America 社 R&D 担当バイスプレジテント兼オープン ソース グループ長
 
-There are several benefits companies can experience from maintaining an open source compliance program:
 オープン ソース コンプライアンス プログラムを維持することにより、企業は次のようなメリットを得ることができます。
 
-・Gain a technical advantage.
-・技術的優位性の確保。
-
-Since compliant software portfolios are easier to service, test, upgrade, and maintain.
-これは、準拠ソフトウェアのポートフォリオを容易に提供、テスト、アップグレード、維持できるために実現されます。
-#翻訳 Since はなぜなら、compliant software portfolios は(オープンソースライセンスに) 準拠したソフトウェアポートフォリオは、できるからです。　この行は前の gain a technical advantage の補足をしている
-
-・Identify crucial pieces of open source code.
-・オープン ソース コードの重要部分の特定。
-
-You’ll discover what code is in use across multiple products and parts of your organization, and/or are highly strategic and beneficial to your open source strategy.
-複数の製品や組織の部署にまたがって使用されているコードや、オープン ソース戦略にとって特に重要で有益なコードを把握できます。
-
-・Demonstrate the costs and risks associated with using open source components.
-・オープン ソース コンポーネントの使用に関するコストとリスクの実証。
-
-This is easier to see when code goes through multiple rounds of review.
-コードのレビューを複数回にわたって行うと、より容易に把握できます。
-
-・Build community trust.
-・コミュニティの信頼の構築。
-
-In the event of a compliance challenge, such a program can demonstrate an ongoing pattern of acting in good faith.
-コンプライアンスに関する問題が生じた場合、このようなプログラムにより、継続して誠意をもって行動する姿勢を示すことができます。
-
-・Prepare for a possible acquisition, sale, or new product or service release.
-・起こりうる買収、売却、あるいは新製品/サービスのリリースなどへの備え。
-
-This is a less common ways benefit, but compliance assurance is a mandatory practice before the completion of such transactions.
-これは、あまり一般的ではないメリットですが、このような取引を完了させるうえで、コンプライアンス保証は必須です。
-
-・Build credibility in the supply chain.
-・サプライ チェーン内の信頼関係の構築。
-
-You can improve compliance across your software supply chain, dealing with OEMs and downstream vendors.
-OEM や下流ベンダーとのやり取りを通じて、ソフトウェア サプライ チェーン全体のコンプライアンスを強化できます。
+・技術的優位性の確保。なぜなら、オープンソースライセンスに準拠したソフトウェアポートフォリオは容易に提供、テスト、アップグレード、維持できるからです。
+・オープン ソース コードの重要部分の特定。複数の製品や組織の部署にまたがって使用されているコードや、オープン ソース戦略にとって特に重要で有益なコードを把握できます。
+・オープン ソース コンポーネントの使用に関するコストとリスクの実証。コードのレビューを複数回にわたって行うと、より容易に把握できます。
+・コミュニティの信頼の構築。コンプライアンスに関する問題が生じた場合、このようなプログラムにより、継続して誠意をもって行動する姿勢を示すことができます。
+・起こりうる買収、売却、あるいは新製品/サービスのリリースなどへの備え。これは、あまり一般的ではないメリットですが、このような取引を完了させるうえで、コンプライアンス保証は必須です。
+・サプライ チェーン内の信頼関係の構築。OEM や下流ベンダーとのやり取りを通じて、ソフトウェア サプライ チェーン全体のコンプライアンスを強化できます。
 
 --------------------------------
-
-Section 2
 セクション 2
 
-Compliance roles and responsibilities
 コンプライアンスにおける役割と責任
 
-Within your open source program you’ll want to create a designated open source compliance team that’s tasked with ensuring open source compliance.
 オープン ソース プログラムでは、オープン ソース コンプライアンスの確保を目的とする専任のオープン ソース コンプライアンス チームを作ります。
 
-The core team, often called the auditing team or the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and the Compliance Officer (who is typically the open source program manager).
-中核となるチームは、監査チームまたはオープン ソース レビュー ボード (OSRB: Open Source Review Board) と呼ばれ、エンジニアリング チームと製品チームの担当者、1 人以上の法務専門家、およびコンプライアンス オフィサー (通常、オープン ソース プログラム マネージャー) で構成されます。
-＃用語　担当者→代表者
+中核となるチームは、監査チームまたはオープン ソース レビュー ボード (OSRB: Open Source Review Board) と呼ばれ、エンジニアリング チームと製品チームの代表者、1 人以上の法務専門家、およびコンプライアンス オフィサー (通常、オープン ソース プログラム マネージャー) で構成されます。
 
-Other individuals across multiple departments also contribute on an ongoing basis to your open source compliance efforts: documentation, supply chain, corporate development, IT, localization and the Open Source Executive Committee (OSEC) which oversees the overall open source strategy.
-ドキュメント製作、サプライ チェーン、経営企画、IT、ローカライゼーション、オープン ソース戦略全体を監督するオープン ソース執行委員会 (OSEC: Open Source Executive Committee) など、他のさまざまな部門の人々も、拡張チームのメンバーとしてオープン ソース コンプライアンスの取り組みに継続的に貢献しています。
-＃翻訳　貢献しています→ 貢献します　ここはcontributes なので
+ドキュメント製作、サプライ チェーン、経営企画、IT、ローカライゼーション、オープン ソース戦略全体を監督するオープン ソース執行委員会 (OSEC: Open Source Executive Committee) など、他のさまざまな部門の人々も、拡張チームのメンバーとしてオープン ソース コンプライアンスの取り組みに継続的に貢献します。
 
-But unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB.
 ただし、中核チームと異なり、拡張チームのメンバーは、OSRB から依頼された作業に基づいてパートタイム ベースでコンプライアンスに取り組むだけです。
 
-The OSRB is in charge of creating an open source compliance strategy and a set of processes that determine how a company will implement these rules on a daily basis.
 OSRB は、オープン ソース コンプライアンス戦略を策定し、企業が日常的に規則をどのように実施するかを決定する一連のプロセスを作成する責任を担っています。
 
-The strategy establishes what must be done to ensure compliance and offers a governing set of principles for how employees interact with open source software.
 この戦略では、コンプライアンス確保のために何をすべきかを決定し、従業員がオープン ソース ソフトウェアとどのように向き合えばよいかについて一連の統治原則を提供します。
 
-It includes a formal process for the approval, acquisition, and use of open source, and a method for releasing software that contains open source or that’s licensed under an open source license.
-これには、オープン ソースの承認、取得、使用のための正式なプロセス、およびオープン ソースを含むソフトウェアまたはオープン ソース ライセンスでライセンスされたソフトウェアのリリース方法が含まれます。
-＃翻訳　method for releasing software that contains open source or that’s licensed under an open source license.
-は オープンソースライセンスの下で許可されたものかオープンソースを含むソフトウェアをリリースする方法
+これには、オープン ソースの承認、取得、使用のための正式なプロセス、およびオープン ソースを含むソフトウェアまたはオープン ソース ライセンスの元で許可されたたソフトウェアのリリース方法が含まれます。
 
 --------------------------------
-
-Section 3
 セクション 3
 
-A simple policy for using open source code
-オープン ソース コードのシンプルな利用ポリシー
-#翻訳 simple は policy にかかっているのだから利用ポリシーではなくシンプルなポリシー
-The usage policy is an essential component of any compliance program.
-利用ポリシーは、すべてのコンプライアンス プログラムにとって不可欠なコンポーネントです。
-＃翻訳　コンポーネント、ここでは一部分ということなのであえてカタカナでなくても良い
+オープン ソース コードを利用するためのシンプルなポリシー
 
-This set of rules is included in your open source strategy document (you have one, right?) and made available to everyone for easy reference.
-この一連の規則は、オープン ソース戦略文書 (既にお持ちのはずです) に含まれ、誰でも入手して簡単に参照できるようになっています。
-＃翻訳 set of rule は「これらの」でも良いのではないか、本質は後半にある
+利用ポリシーは、すべてのコンプライアンス プログラムにとって不可欠な構成要素です。
 
-The usage policy is an essential component of any compliance program.
-利用ポリシーは、すべてのコンプライアンス プログラムにとって不可欠なコンポーネントです。
-
-This set of rules is included in your open source strategy document (you have one, right?) and made available to everyone for easy reference.
 この一連の規則は、オープン ソース戦略文書 (既にお持ちのはずです) に含まれ、誰でも入手して簡単に参照できるようになっています。
 
-The usage policy ensures that any software (proprietary, third-party, or open source) that makes its way into the product base has been audited, reviewed, and approved.
-利用ポリシーは、製品を支えるすべてのソフトウェア (プロプライエタリ、サードパーティ製、オープン ソースを問わず) の監査、レビュー、承認が完了していることを保証するものです。
-＃翻訳　ensure の部分は、監査、レビュー、承認を行うやり方（way)に従うように推進する、ということで、意味がちょっと違うのではないか？
+利用ポリシーは、製品を支えるすべてのソフトウェア (プロプライエタリ、サードパーティ製、オープン ソースを問わず) の監査、レビュー、承認が完了しているようにすることを推進するものです。
 
-It also ensures that your company has a plan to fulfill the license obligations resulting from using the various software components, before your products make it to customers.
-また、さまざまなソフトウェア コンポーネントを使用することで生じたライセンス義務を履行するための計画を、製品が顧客の元に届く前に立ててあることを保証します。
-＃翻訳　ensure は保証ではなく、組織の中で計画的にライセンス義務を履行することを強化する、ということでは？
+また、さまざまなソフトウェア コンポーネントを使用することで生じたライセンス義務を履行するための計画を、製品が顧客の元に届く前に完了するようにします。
 
-There is no need to make a lengthy or complicated document.
-長い文書や複雑な文書を作成する必要はありません。
-＃翻訳　この理容ポリシーはを先頭につけた方が良い
+この利用ポリシーは長い文書や複雑な文書として作成する必要はありません。
 
-A good open source usage policy includes six simple rules:
 適切なオープン ソース利用ポリシーには、次の 6 つの簡単な規則が含まれます。
-
+＞＞＞＞
 ・Engineers must receive approval from the OSRB before integrating any open source code in a product.
 ・技術者は、オープン ソース コードを製品に統合する前に OSRB から承認を得る必要があります。
 
