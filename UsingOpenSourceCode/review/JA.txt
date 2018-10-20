@@ -1,4 +1,4 @@
-﻿The Linux Foundation
+﻿]The Linux Foundation
 
 オープンソース コードの使用
 
@@ -93,141 +93,70 @@ OSRB は、オープン ソース コンプライアンス戦略を策定し、�
 
 適切なオープン ソース利用ポリシーには、次の 6 つの簡単な規則が含まれます。
 ＞＞＞＞
-・Engineers must receive approval from the OSRB before integrating any open source code in a product.
 ・技術者は、オープン ソース コードを製品に統合する前に OSRB から承認を得る必要があります。
-
-・Software received from third parties must be audited to identify any open source code included, which ensures license obligations can be fulfilled before a product ships.
 ・サードパーティから受け取ったソフトウェアは、監査を受けて、含まれているオープン ソース コードを特定する必要があります。これにより、製品出荷前にライセンス義務を確実に履行することができます。
-
-・All software must be audited and reviewed, including all proprietary software components.
 ・すべてのソフトウェアは、すべてのプロプライエタリ ソフトウェア コンポーネントも含めて、監査およびレビューを受ける必要があります。
-
-・Products must fulfill open source licensing obligations prior to customer receipt.
 ・製品は、顧客が受け取る前にオープン ソース ライセンス義務を履行する必要があります。
-
-・Approval for using a given open source component in one product is not approval for another deployment, even if the open source component is the same.
 ・ある製品で特定のオープン ソース コンポーネントの使用が承認されても、その同じオープン ソース コンポーネントを別の展開で使用することが承認されたことにはなりません。
-
-・All changed components must go through the approval process.
 ・変更されたコンポーネントはすべて、承認プロセスを経る必要があります。
 
 --------------------------------
 
-Section 4
 セクション 4
 
-5-stage code review process
 5 段階のコード レビュー プロセス
 
-Once you have a policy in place, you must plan and create a process that makes it easy to apply the policy.
-利用ポリシーを策定したら、そのポリシーを容易に適用できるプロセスを計画し、作成します。
+利用ポリシーを策定したら、そのポリシーを容易に適用できるプロセスを計画し、作成します。開発者がオープン ソースの利用とオープン ソース プロジェクトへの貢献を円滑に行えるようにする必要があります。
 
-Your job is to grease the wheels for developer use of open source and contribution to open source projects.
-開発者がオープン ソースの利用とオープン ソース プロジェクトへの貢献を円滑に行えるようにする必要があります。
-
-“If your code review process is overly burdensome, you’ll slow innovation or provide a good excuse for developers to circumvent the process completely.”
 「コードのレビュー プロセスがあまりに面倒なものだと、イノベーションのスピードが落ちたり、開発者にプロセス全体を回避する格好の口実を与えることになります。」
-
-Ibrahim Haddad – Vice President of R&D and Head of the Open Source Group at Samsung Research America
 Ibrahim Haddad – Samsung Research America 社 R&D 担当バイスプレジテント兼オープン ソース グループ長
 
-The process begins by scanning the source code of the software package in question, then moves on to identifying and resolving any discovered issues, performing legal and architectural reviews, and making a decision regarding the usage approval.
 プロセスではまず、対象となっているソフトウェア パッケージのソース コードをスキャンします。次に、発見された問題を特定および解決し、法的レビューとアーキテクチャ レビューを行ったのち、利用承認に関する決定を行います。
 
-The diagram, below, illustrates a simplistic view of a compliance usage process.
-下の図は、コンプライアンス利用プロセスを単純化して図示したものです。
+下の図は、コンプライアンス利用プロセスを単純化して図示したものです。実際には、プロセスはその性質上、かなり反復的です。以下の各段階は説明を目的としており、企業特有の必要性やオープン ソース プログラムの構成に応じて変更が必要な場合があることに注意してください。
 
-In reality, the process is much more iterative in nature.
-実際には、プロセスはその性質上、はるかに双方向的です。
-
-Keep in mind that these phases are for illustration purposes and may need to be modified depending on your company’s own needs and open source program configuration.
-以下の各段階は説明を目的としており、企業のニーズやオープン ソース プログラムの構成に応じて変更が必要な場合があることに注意してください。
-＃翻訳　「ニーズ」は必要性か？　
-
-Let’s walk through each stage in the process.
 プロセスの各段階を順を追って説明しましょう。
 
 ----------------
-
-Stage 1: Source Code Scan
 第 1 段階:  ソース コードのスキャン
 
-In the source code scanning phase, all the source code is scanned using a specialized software tools (there are many commercial vendors that offer such tools in addition to a couple open source alternatives).
 ソース コードのスキャン段階では、専門のソフトウェア ツールを使用して、すべてのソース コードがスキャンされます (このようなツールは、いくつかのオープン ソース ツールの他に、数多くの商用ベンダーから提供されています)。
 
-This phase typically kicks off when an engineer submits an online usage form.
-この段階は、通常、技術者がオンラインの利用フォームを提出することで開始されます 
+この段階は、通常、技術者がオンラインの利用フォームを提出することで開始されます (以下のサンプルの利用フォームと利用規則を参照)。このフォームには、対象となっているオープン ソース コンポーネントに関するすべての情報を含め、ソース コード リポジトリ システム内のソース コードの場所を指定します。
 
-(See the sample usage form and rules for using it, below.)
-(以下のサンプルの利用フォームと利用規則を参照)。
-
-The form includes all the information about the open source component in question, and specifies the location of the source code in the source code repository system.
-このフォームには、対象となっているオープン ソース コンポーネントに関するすべての情報を含め、ソース コード リポジトリ システム内のソース コードの場所を指定します。
-
-The form submission automatically creates a compliance ticket in a system such as JIRA or Bugzilla and a source code scanning request will be sent to the designated auditing staff.
-フォームを提出すると、JIRA、Bugzilla などのシステムにコンプライアンス チケットが自動的に作成され、指定された監査スタッフにソース コード スキャン要求が送られます。
-＃翻訳　designated は指定されたではなく、決められた
+フォームを提出すると、JIRA、Bugzilla などのシステムにコンプライアンス チケットが自動的に作成され、決められた監査スタッフにソース コード スキャン要求が送られます。
 
 Periodic full platform scans should also take place every few weeks to ensure that no open source software component has been integrated into the platform without a corresponding form.
 対応する利用フォームの提出なしにオープン ソース ソフトウェア コンポーネントがプラットフォームに統合されることがないようにするため、プラットフォームの定期的なフル スキャンも数週間ごとに行う必要があります。
 #翻訳　プラットフォームは何を示しているか？　OSSを組み込むソフトウェア製品全体のことを指しているように思うが説明がないのでわからない
 ＃翻訳　定期的なフル　スキャンとなっているが、プラットフォーム全体のスキャンであるべきではないか？
 
-If any was found, then a JIRA ticket is automatically issued and assigned to the auditing staff.
 何らかの問題が見つかった場合は、JIRA チケットが自動的に発行され、監査スタッフに割り当てられます。
 
-Some of the factors that can trigger a source code scan include:
 ソース コードのスキャンが開始される要因には、次のようなものがあります。
 
-・An incoming usage form, usually filled out by engineering staff.
 ・利用フォーム (通常はエンジニアリング スタッフが入力) の受信。
 
 ・A periodically scheduled full platform scan.
 ・定期的にスケジュールされているプラットフォームのフル スキャン。
 #翻訳　プラットフォーム全体のスキャン
 #注釈　ここでプラットフォームとは製品となるソフトウェア全体のことを指して居ます
-
-Such scans are very useful for uncovering open source code that snuck into your software platform without a usage form.
 このようなスキャンは、利用フォームが提出されないままソフトウェア プラットフォームに密かに入り込んだオープン ソース コードを発見するのに非常に役立ちます。
 
-・Changes in a previously approved software component.
-・以前に承認されたソフトウェア コンポーネントの変更。
+・以前に承認されたソフトウェア コンポーネントの変更。多くの場合、技術者はまず、OSS コンポーネントの特定のバージョンを評価およびテストし、その後、新しいバージョンが利用可能になると、それを採用します。
 
-In many cases, engineers start evaluating and testing with a certain version of an OSS component, and later adopt that component when a new version is available.
-多くの場合、技術者はまず、OSS コンポーネントの特定のバージョンを評価およびテストし、その後、新しいバージョンが利用可能になると、そのコンポーネントを採用します。
-
-・Source code is received from a third-party software provider who may or may not have disclosed open source.
 ・サードパーティ ソフトウェア プロバイダからのソース コードの入手。プロバイダがオープン ソースを公開しているかどうかは問いません。
-#翻訳　サードパーティからソースコードが提供された場合、それがオープンソースとして公開しているかどうかは問わない。
-
-・Source code is downloaded from the web with an unknown author and/or license, which may or may not have incorporated open source code.
 ・作成者やライセンスが不明なソース コードの Web からのダウンロード。ソース コードにオープン ソース コードが組み込まれているかどうかは問いません。
-#翻訳 Webからのダウンロードが行なわれた場合、
 
-・A new proprietary software component enters the build system where engineering may or may not have borrowed open source code and used it in a proprietary software component.
 ・新しいプロプライエタリ ソフトウェア コンポーネントのビルド システムへの組み込み。エンジニアリング担当者がオープン ソース コードを借用し、それをプロプライエタリ ソフトウェア コンポーネントで使用したかどうかは問いません。
-#翻訳　ビルドシステムへ組む込まれた場合、
 
-After the code is scanned, the scanning tool produces a report that provides information on:
 コードのスキャンが終了すると、スキャン ツールは、以下の情報を提供するレポートを生成します。
 
-・Known software components in use, also known as the software Bill of Materials (BoM)
 ・使用されている既知のソフトウェア コンポーネント。ソフトウェア部品表 (BOM) とも呼ばれます。
-
-・Licenses in effect, license texts, and summary of obligations
+・法務専門家による確認が必要なライセンスとの矛盾点
 ・有効なライセンス、ライセンス テキスト、義務の概要
-
-・License conflicts to be verified by legal
-・法務専門家による検証が必要なライセンス抵触
-#翻訳　法務専門家による確認が必要なライセンスとの矛盾点
-
-・File inventory
 ・ファイル目録
-
-・Identified files
 ・識別されたファイル
-
-・Dependencies
 ・依存関係
 
 ・Code matches
@@ -239,22 +168,15 @@ After the code is scanned, the scanning tool produces a report that provides inf
 ・Source code matches pending identification
 ・保留中の識別と一致するソース コード
 
-Note on Downloaded Open Source Packages
+
 ダウンロードしたオープン ソース パッケージに関する注意
 
-It is vital to archive open source packages downloaded from the web in their original form.
 Web からダウンロードしたオープン ソース パッケージは、元の形のまま保管しておくことが重要です。
+このパッケージは、後の段階で (配布前) 元のパッケージと変更後のパッケージの間の差分を調べることにより、ソース コードに加えられた変更を検証し、追跡するために使用します。
 
-These packages will be used in a later stage (prior to distribution) to verify and track any changes introduced to the source code by computing the difference between the original package and the modified package.
-このパッケージは、後の段階で (配布前) 元のパッケージと変更後のパッケージの間の差分を計算することにより、ソース コードに加えられた変更を検証および追跡するために使用します。
-#翻訳　この元パッケージは、（配付前の）後の段階で元のパッケージと変更後のパッケージの差分を調べることによって、ソースコードに加えられた変更を追跡し、検証するために使います。
-
-If a third-party software provider uses open source, the product team integrating that code into the product must submit an open source usage form describing the open source to be used.
 サードパーティ ソフトウェア プロバイダがオープン ソースを使用している場合、そのコードを製品に統合する製品チームは、使用されているオープン ソースについて記述したオープン ソース利用申請フォームを提出する必要があります。
-
-If the third-party software provider only provides binaries, not source code, then the product team and/or the software supplier manager who manages the relationship with the third-party software provider must obtain a confirmation (for instance, a scan report) that there is no open source in the provided software.
 サードパーティ ソフトウェア プロバイダがソース コードを提供せず、バイナリしか提供しない場合は、製品チーム、またはサードパーティ ソフトウェア プロバイダとの関係を管理するソフトウェア サプライヤ マネージャーは、提供されたソフトウェアにオープン ソースが含まれていないという確証 (たとえば、スキャン レポート) を得る必要があります。
-
+＞＞＞
 ----------------
 
 Stage 2: Identification and Resolution
